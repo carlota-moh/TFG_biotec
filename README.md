@@ -1,2 +1,3 @@
 # TFG_biotec
-This is a new repository design to keep track of my biotech TFG project
+
+I designed this repository to help me keep track of my Final Degree Project :)
