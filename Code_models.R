@@ -10,7 +10,7 @@ library(caret)
 # Split the data
 
 set.seed(1)
-train_idx <- createDataPartition(exp$Subtype, p = .66, list = FALSE)
+train_idx <- createDataPartition(exp$Subtype, p = 2/3, list = FALSE)
 
 exp_train <- exp[train_idx, ]
 exp_test <- exp[-train_idx, ]
