@@ -1,0 +1,539 @@
+Sample	Histology	Recurrence	Subtype	CIMP_status	survival	status	IDH1_status	MGMT_status	Subtype_Verhaak_2010	Age	Therapy_Class	Gender	Simplicity.score	Wang
+TCGA.02.0001	GBM	Recurrent	Mesenchymal	NON G-CIMP	11.8	1	Wild-type	Unmethylated	Classical	44.3	Standard Radiation	NA	0.9996000699900011	Mesenchymal
+TCGA.02.0003	GBM	Primary	Proneural	NON G-CIMP	4.7	1	Wild-type	Unmethylated	Proneural	50.2	Standard Radiation	Male	0.8951209668554196	Mesenchymal
+TCGA.02.0004	GBM	Primary	Mesenchymal	NON G-CIMP	11.3	1	Wild-type	NA	Mesenchymal	59.2	TMZ Chemoradiation, TMZ Chemo	Male	0.9998000299960005	Mesenchymal
+TCGA.02.0007	GBM	Recurrent	Classical	NON G-CIMP	23.2	1	Wild-type	Unmethylated	Proneural	40.5	TMZ Chemoradiation, TMZ Chemo	Female	0.8741493313922288	Mesenchymal
+TCGA.02.0009	GBM	Primary	Classical	NON G-CIMP	10.6	1	Wild-type	Methylated	Classical	61.5	Nonstandard Radiation	Female	0.8891221666754435	Mesenchymal
+TCGA.02.0010	GBM	Secondary	Proneural	G-CIMP	35.4	1	Mutant	Unmethylated	Proneural	20.4	Standard Radiation, TMZ Chemo	Female	0.0056068985642181565	Mesenchymal
+TCGA.02.0011	GBM	Primary	Proneural	NON G-CIMP	20.7	1	Wild-type	Methylated	Proneural	19	TMZ Chemoradiation, TMZ Chemo	Female	6.501199695049227e-4	Proneural
+TCGA.02.0014	GBM	Recurrent	Proneural	G-CIMP	82.6	1	Mutant	Unmethylated	Proneural	25.6	Alkylating Chemoradiation, TMZ Chemo	Male	0.9998000299960005	Proneural
+TCGA.02.0015	GBM	Primary	Mesenchymal	NON G-CIMP	20.6	1	Wild-type	NA	Classical	50.4	Standard Radiation, Alkylating Chemo	Male	0.26368910954120056	Mesenchymal
+TCGA.02.0016	GBM	Primary	Classical	NON G-CIMP	87.1	1	Wild-type	NA	Classical	50	Standard Radiation, TMZ Chemo	Male	0.9998000299960005	Classical
+TCGA.02.0021	GBM	Recurrent	Classical	NON G-CIMP	77.7	1	Wild-type	Methylated	Classical	43.9	Standard Radiation, TMZ Chemo	Female	0.7861534614461766	Mesenchymal
+TCGA.02.0023	GBM	Primary	Classical	NON G-CIMP	20.1	1	Wild-type	NA	Classical	38.3	TMZ Chemoradiation, TMZ Chemo	Female	0.9711057691351156	Classical
+TCGA.02.0024	GBM	Recurrent	Proneural	NON G-CIMP	53.1	1	Wild-type	Unmethylated	Proneural	35.9	Standard Radiation, TMZ Chemo	Male	0.9647521399244934	Mesenchymal
+TCGA.02.0025	GBM	Primary	Mesenchymal	NON G-CIMP	42.7	1	Wild-type	NA	Mesenchymal	47.6	Standard Radiation, TMZ Chemo	Male	0.9997000499930009	Mesenchymal
+TCGA.02.0026	GBM	Primary	Proneural	G-CIMP	24.6	1	Mutant	NA	Proneural	27.4	Standard Radiation, TMZ Chemo	Male	0.9984004399280094	Proneural
+TCGA.02.0027	GBM	Primary	Classical	NON G-CIMP	12.2	1	Wild-type	Methylated	Classical	33.9	TMZ Chemoradiation, TMZ Chemo	Female	0.9996000699900011	Mesenchymal
+TCGA.02.0028	GBM	Secondary	Proneural	G-CIMP	90.6	1	Mutant	Methylated	Proneural	39.2	Standard Radiation, TMZ Chemo	Male	0.99950008998700135	Mesenchymal
+TCGA.02.0033	GBM	Primary	Mesenchymal	NON G-CIMP	2.8	1	Wild-type	Methylated	Mesenchymal	55	Standard Radiation	Male	0.8590281857725638	Mesenchymal
+TCGA.02.0034	GBM	Primary	Mesenchymal	NON G-CIMP	14.1	1	Wild-type	Unmethylated	Mesenchymal	60.7	Standard Radiation, TMZ Chemo	Male	0.8201359646057196	Mesenchymal
+TCGA.02.0038	GBM	Primary	Classical	NON G-CIMP	10.7	1	Wild-type	Unmethylated	Classical	48.6	Standard Radiation	Female	0.1929482084288324	Proneural
+TCGA.02.0039	GBM	Primary	Mesenchymal	NON G-CIMP	10.5	1	NA	NA	Mesenchymal	54.9	Standard Radiation	Male	0.15150905667357473	Mesenchymal
+TCGA.02.0043	GBM	Recurrent	Classical	NON G-CIMP	18.3	1	Wild-type	Methylated	Classical	54.4	Standard Radiation, Alkylating Chemo	Female	0.9997000499930009	Mesenchymal
+TCGA.02.0046	GBM	Primary	Proneural	NON G-CIMP	6.9	1	Wild-type	Methylated	Proneural	61.4	Standard Radiation	Male	0.6377724391344485	Mesenchymal
+TCGA.02.0047	GBM	Primary	Proneural	NON G-CIMP	14.7	1	Wild-type	Unmethylated	Proneural	78.7	Standard Radiation	Male	0.5431302785129947	Mesenchymal
+TCGA.02.0048	GBM	Primary	Classical	NON G-CIMP	3.2	1	Wild-type	NA	Proneural	80.2	Unspecified Radiation	Male	0.035701359371112566	Proneural
+TCGA.02.0051	GBM	Primary	Mesenchymal	NON G-CIMP	15.1	1	NA	NA	Mesenchymal	43.8	TMZ Chemoradiation, TMZ Chemo	Male	0.9939012098190242	Mesenchymal
+TCGA.02.0052	GBM	Primary	Proneural	NON G-CIMP	12.6	1	Wild-type	Unmethylated	Neural	49.5	TMZ Chemoradiation, TMZ Chemo	Male	0.9974005099240096	Mesenchymal
+TCGA.02.0054	GBM	Primary	Mesenchymal	NON G-CIMP	6.5	1	Wild-type	Methylated	Mesenchymal	44.4	TMZ Chemoradiation, TMZ Chemo	Female	0.7830433834928677	Mesenchymal
+TCGA.02.0057	GBM	Recurrent	Classical	NON G-CIMP	19.9	1	Wild-type	Unmethylated	Neural	66.1	Alkylating Chemoradiation, TMZ Chemo	Female	0.9440111883222237	Mesenchymal
+TCGA.02.0058	GBM	Recurrent	Classical	G-CIMP	8.3	1	Mutant	Methylated	Neural	28.8	TMZ Chemoradiation, TMZ Chemo	Female	0.265448057733973	Mesenchymal
+TCGA.02.0059	GBM	Primary	Mesenchymal	NON G-CIMP	9.6	1	NA	NA	Mesenchymal	68.7	TMZ Chemoradiation, TMZ Chemo	Female	0.9354129080642576	Mesenchymal
+TCGA.02.0060	GBM	Primary	Proneural	NON G-CIMP	6	1	Wild-type	Methylated	Proneural	66.1	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Mesenchymal
+TCGA.02.0064	GBM	Primary	Mesenchymal	NON G-CIMP	19.7	1	Wild-type	Methylated	Mesenchymal	50	TMZ Chemoradiation, TMZ Chemo	Male	0.7387522421640447	Mesenchymal
+TCGA.02.0068	GBM	Primary	Classical	NON G-CIMP	26.4	1	Wild-type	NA	Classical	57.9	TMZ Chemoradiation, TMZ Chemo	Male	0.002599480077989589	Classical
+TCGA.02.0069	GBM	Primary	Proneural	NON G-CIMP	28.7	0	Wild-type	Methylated	Proneural	31.9	TMZ Chemoradiation, TMZ Chemo	Female	0.9988004399240108	Proneural
+TCGA.02.0070	GBM	Primary	Mesenchymal	NON G-CIMP	25.1	0	Wild-type	NA	Classical	71	TMZ Chemoradiation, TMZ Chemo	Male	0.0027756448432748617	Mesenchymal
+TCGA.02.0071	GBM	Primary	Classical	NON G-CIMP	5.5	1	Wild-type	Unmethylated	Classical	53.2	Unspecified Radiation	Male	0.01200563875219324	Classical
+TCGA.02.0074	GBM	Primary	Proneural	NON G-CIMP	10.2	1	Wild-type	Unmethylated	Proneural	68.2	TMZ Chemoradiation, TMZ Chemo	Female	0.9814037094440736	Proneural
+TCGA.02.0075	GBM	Primary	Mesenchymal	NON G-CIMP	20.8	1	Wild-type	Methylated	Mesenchymal	63.5	TMZ Chemoradiation, TMZ Chemo	Male	0.1282743438484873	Mesenchymal
+TCGA.02.0079	GBM	Primary	Mesenchymal	NON G-CIMP	27.2	1	Wild-type	NA	Mesenchymal	58	TMZ Chemoradiation, TMZ Chemo	Male	0.6197395658894265	Mesenchymal
+TCGA.02.0080	GBM	Recurrent	Proneural	G-CIMP	89.7	1	Mutant	Methylated	Proneural	28.2	Standard Radiation, TMZ Chemo	Male	0.6353550226419218	Proneural
+TCGA.02.0083	GBM	Recurrent	Classical	NON G-CIMP	22.7	1	Wild-type	Methylated	Neural	59.2	Standard Radiation, TMZ Chemo	Female	0.31418099066005767	Classical
+TCGA.02.0084	GBM	Primary	Mesenchymal	G-CIMP	12.6	1	Wild-type	NA	Proneural	36.3	Unspecified Therapy	Female	0.08482975320106229	Classical
+TCGA.02.0085	GBM	Primary	Mesenchymal	NON G-CIMP	51.3	1	Wild-type	Methylated	Mesenchymal	63.8	TMZ Chemoradiation, TMZ Chemo	Female	0.1697455891847073	Mesenchymal
+TCGA.02.0086	GBM	Primary	Mesenchymal	NON G-CIMP	8.8	1	Wild-type	Methylated	Mesenchymal	45.9	TMZ Chemoradiation, TMZ Chemo	Female	0.6688975637982648	Mesenchymal
+TCGA.02.0087	GBM	Primary	Proneural	G-CIMP	57.8	0	NA	NA	Proneural	27.9	Standard Radiation	Female	0.5275030241201455	Proneural
+TCGA.02.0089	GBM	Recurrent	Classical	NON G-CIMP	17	1	Wild-type	Methylated	Neural	52.7	TMZ Chemoradiation, TMZ Chemo	Male	0.032362067262926876	Classical
+TCGA.02.0099	GBM	Recurrent	Mesenchymal	NON G-CIMP	3.5	1	Wild-type	Methylated	Mesenchymal	46.8	Standard Radiation, TMZ Chemo	Male	0.5610372169462383	Mesenchymal
+TCGA.02.0102	GBM	Secondary	Classical	NON G-CIMP	27	1	Wild-type	Unmethylated	Classical	42.9	Standard Radiation, Alkylating Chemo	Male	0.15075476753894448	Classical
+TCGA.02.0104	GBM	Primary	Proneural	G-CIMP	65	1	Wild-type	NA	Proneural	29.3	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Proneural
+TCGA.02.0106	GBM	Primary	Mesenchymal	NON G-CIMP	11.7	1	NA	NA	Mesenchymal	54.4	TMZ Chemoradiation, TMZ Chemo	Male	0.9018391831449791	Mesenchymal
+TCGA.02.0107	GBM	Recurrent	Mesenchymal	NON G-CIMP	17.6	1	Wild-type	Unmethylated	Mesenchymal	56.3	Standard Radiation, TMZ Chemo	Male	0.8882223466484473	Mesenchymal
+TCGA.02.0111	GBM	Primary	Mesenchymal	NON G-CIMP	23.2	1	NA	NA	Mesenchymal	57	TMZ Chemoradiation, TMZ Chemo	Male	0.7268754176477162	Mesenchymal
+TCGA.02.0113	GBM	Recurrent	Classical	NON G-CIMP	92.7	0	Wild-type	Methylated	Neural	43.4	Standard Radiation, TMZ Chemo	Female	0.9995001099830019	Classical
+TCGA.02.0114	GBM	Secondary	Proneural	G-CIMP	100	1	Wild-type	Methylated	Proneural	37.5	Standard Radiation, Alkylating Chemo	Female	0.9998000299960005	Proneural
+TCGA.02.0115	GBM	Primary	Classical	NON G-CIMP	15.7	1	Wild-type	Methylated	Neural	52.7	TMZ Chemoradiation, TMZ Chemo	Male	0.8876024306378475	Classical
+TCGA.02.0116	GBM	Recurrent	Mesenchymal	NON G-CIMP	49	1	Wild-type	Unmethylated	Mesenchymal	51.1	Standard Radiation, TMZ Chemo	Male	0.252773572757713	Mesenchymal
+TCGA.02.0258	GBM	Primary	Proneural	G-CIMP	16.5	1	NA	NA	Proneural	36.3	Alkylating Chemoradiation, Alkylating Chemo	Female	0.9320517603274171	Proneural
+TCGA.02.0260	GBM	Primary	Classical	NON G-CIMP	16.9	1	NA	NA	Classical	54.6	Standard Radiation	Male	0.9930013897920279	Classical
+TCGA.02.0266	GBM	Primary	Mesenchymal	NON G-CIMP	17.7	1	NA	NA	Classical	14.5	Standard Radiation, Alkylating Chemo	Male	0.2631172739140442	Mesenchymal
+TCGA.02.0269	GBM	Primary	Classical	NON G-CIMP	10.8	1	NA	NA	Classical	69	Alkylating Chemo	Male	0.9998000299960005	Classical
+TCGA.02.0271	GBM	Primary	Mesenchymal	NON G-CIMP	14.5	1	NA	NA	Classical	26.2	Unspecified Radiation	Male	0.5219686610481042	Mesenchymal
+TCGA.02.0281	GBM	Primary	Proneural	NON G-CIMP	4	1	NA	NA	Proneural	78.6	Nonstandard Radiation	Female	0.997600469930009	Proneural
+TCGA.02.0285	GBM	Primary	Classical	NON G-CIMP	13.9	1	NA	NA	Classical	50.2	Standard Radiation	Female	0.03266016763987032	Classical
+TCGA.02.0289	GBM	Primary	Classical	NON G-CIMP	14.2	1	NA	NA	Classical	57.6	Standard Radiation, Alkylating Chemo	Male	0.9993001899690037	Classical
+TCGA.02.0290	GBM	Primary	Mesenchymal	NON G-CIMP	15.9	1	NA	NA	Classical	49.5	Standard Radiation, Alkylating Chemo	Male	0.00892797431585705	Mesenchymal
+TCGA.02.0317	GBM	Primary	Classical	NON G-CIMP	12.2	1	NA	NA	Classical	40.1	Nonstandard Radiation	Male	0.99950008998700135	Classical
+TCGA.02.0321	GBM	Primary	Proneural	NON G-CIMP	9.9	1	NA	NA	Proneural	74.3	Standard Radiation	Male	0.03670077947709669	Proneural
+TCGA.02.0324	GBM	Primary	Classical	NON G-CIMP	7.7	1	NA	NA	Neural	69.4	Standard Radiation	Female	0.3406567752383844	Classical
+TCGA.02.0325	GBM	Primary	Proneural	NON G-CIMP	10.6	1	NA	NA	Proneural	61.9	Standard Radiation, Alkylating Chemo	Male	0.48877408029619973	Proneural
+TCGA.02.0326	GBM	Primary	Classical	NON G-CIMP	7.3	1	NA	NA	Mesenchymal	82.6	Nonstandard Radiation	Female	0.7551868950691172	Classical
+TCGA.02.0330	GBM	Primary	Classical	NON G-CIMP	15.9	1	NA	NA	Mesenchymal	51.1	Standard Radiation, Alkylating Chemo	Female	0.10075308837479452	Classical
+TCGA.02.0332	GBM	Primary	Proneural	NON G-CIMP	25.7	1	NA	NA	Mesenchymal	46.6	Standard Radiation, Alkylating Chemo	Female	0.17299219983011185	Proneural
+TCGA.02.0333	GBM	Primary	Classical	NON G-CIMP	4.4	1	NA	NA	Classical	77.9	Nonstandard Radiation	Female	0.9992001499780032	Classical
+TCGA.02.0337	GBM	Primary	Proneural	NON G-CIMP	25.1	1	NA	NA	Mesenchymal	48.3	Standard Radiation, Alkylating Chemo	Male	1.9954008998657947e-4	Mesenchymal
+TCGA.02.0338	GBM	Primary	Proneural	NON G-CIMP	10.6	1	NA	NA	Proneural	41.7	Standard Radiation	Male	0.9998000299960005	Proneural
+TCGA.02.0339	GBM	Primary	Proneural	G-CIMP	12.4	1	NA	NA	Proneural	67.1	Nonstandard Radiation	Male	0.9988002299660043	Proneural
+TCGA.02.0422	GBM	Primary	Classical	NON G-CIMP	14.5	1	NA	NA	Classical	50.3	Nonstandard Radiation	Male	0.966363517632838	Classical
+TCGA.02.0430	GBM	Primary	Classical	NON G-CIMP	10.6	1	NA	NA	Classical	67.5	Standard Radiation	Female	0.9426392827170638	Classical
+TCGA.02.0432	GBM	Primary	Proneural	G-CIMP	47.1	1	NA	NA	Proneural	36.3	Standard Radiation, Alkylating Chemo	Male	0.9074369435369232	Proneural
+TCGA.02.0439	GBM	Primary	Proneural	NON G-CIMP	0.7	1	NA	NA	Proneural	70.2	Nonstandard Radiation	NA	0.750104061686622	Proneural
+TCGA.02.0440	GBM	Primary	Proneural	NON G-CIMP	11.3	1	NA	NA	Proneural	62.9	Standard Radiation	Male	0.979146480912352	Proneural
+TCGA.02.0446	GBM	Primary	Proneural	NON G-CIMP	9.3	1	NA	NA	Proneural	61.7	Nonstandard Radiation	Male	0.07683080307107767	Proneural
+TCGA.02.0451	GBM	Primary	Classical	NON G-CIMP	16.2	1	NA	NA	Neural	62	Nonstandard Radiation, Alkylating Chemo	Female	0.8424524810792592	Classical
+TCGA.02.0456	GBM	Primary	Mesenchymal	NON G-CIMP	3.4	1	NA	NA	Mesenchymal	67.9	Nonstandard Radiation	Female	0.9955008898670173	Mesenchymal
+TCGA.02.2466	GBM	Primary	Proneural	NON G-CIMP	16.8	1	Wild-type	Unmethylated	Proneural	61.5	TMZ Chemoradiation, TMZ Chemo	Male	0.9855028895670576	Proneural
+TCGA.02.2470	GBM	Primary	Mesenchymal	NON G-CIMP	12.9	1	Wild-type	Unmethylated	Mesenchymal	57.5	TMZ Chemoradiation, TMZ Chemo	Male	0.7126280272682667	Mesenchymal
+TCGA.02.2483	GBM	Primary	Proneural	G-CIMP	15.3	0	Mutant	Methylated	Proneural	43.7	TMZ Chemoradiation, TMZ Chemo	Male	0.9598080287961605	Proneural
+TCGA.02.2485	GBM	Primary	Classical	NON G-CIMP	15.4	0	Wild-type	Unmethylated	Classical	53.4	TMZ Chemoradiation, TMZ Chemo	Male	0.6018796180575924	Classical
+TCGA.02.2486	GBM	Primary	Mesenchymal	NON G-CIMP	20.3	1	Wild-type	Unmethylated	Mesenchymal	64	TMZ Chemoradiation, TMZ Chemo	Male	0.9477961112997794	Mesenchymal
+TCGA.06.0122	GBM	Primary	Mesenchymal	NON G-CIMP	6.2	1	Wild-type	Unmethylated	Mesenchymal	84.8	Unspecified Radiation	Female	0.005684043134532664	Mesenchymal
+TCGA.06.0124	GBM	Primary	Mesenchymal	NON G-CIMP	20.4	1	Wild-type	Methylated	Mesenchymal	67.3	Unspecified Radiation, TMZ Chemo	Male	0.547290536419811	Mesenchymal
+TCGA.06.0125	GBM	Primary	Classical	NON G-CIMP	47.6	1	Wild-type	Methylated	Classical	63.9	TMZ Chemoradiation, TMZ Chemo	Female	0.9349019702569289	Classical
+TCGA.06.0126	GBM	Primary	Classical	NON G-CIMP	6.9	1	Wild-type	Unmethylated	Classical	86.6	Unspecified Radiation	Male	0.9987002499630047	Classical
+TCGA.06.0127	GBM	Primary	Classical	NON G-CIMP	4	1	Wild-type	NA	Classical	67.1	Standard Radiation	Male	0.9979004099390082	Classical
+TCGA.06.0128	GBM	Primary	Proneural	G-CIMP	22.7	1	Mutant	Methylated	Proneural	66.3	Standard Radiation, TMZ Chemo	Male	0.924137783201981	Proneural
+TCGA.06.0129	GBM	Primary	Proneural	G-CIMP	33.7	1	Mutant	Methylated	Proneural	30.9	TMZ Chemoradiation, TMZ Chemo	Male	0.9920015897620317	Proneural
+TCGA.06.0130	GBM	Primary	Mesenchymal	NON G-CIMP	12.9	1	Wild-type	Unmethylated	Mesenchymal	54.2	TMZ Chemoradiation, TMZ Chemo	Male	0.9998000299960005	Mesenchymal
+TCGA.06.0132	GBM	Primary	Mesenchymal	NON G-CIMP	25.4	1	Wild-type	NA	Neural	49.6	Standard Radiation, TMZ Chemo	Male	0.43455638437756106	Mesenchymal
+TCGA.06.0133	GBM	Primary	Classical	NON G-CIMP	14.3	1	Wild-type	Unmethylated	Neural	64.1	TMZ Chemoradiation, TMZ Chemo	Male	0.7766837254880656	Classical
+TCGA.06.0137	GBM	Primary	Classical	NON G-CIMP	26.7	1	Wild-type	Unmethylated	Classical	63.7	Standard Radiation, Alkylating Chemo	Female	0.5720844273936773	Classical
+TCGA.06.0138	GBM	Primary	Mesenchymal	NON G-CIMP	24.2	1	Wild-type	NA	Neural	43.1	Standard Radiation, TMZ Chemo	Male	0.11917798321157824	Mesenchymal
+TCGA.06.0139	GBM	Primary	Mesenchymal	NON G-CIMP	11.9	1	Wild-type	Unmethylated	Mesenchymal	40.3	Standard Radiation, TMZ Chemo	Male	0.999000189972004	Mesenchymal
+TCGA.06.0140	GBM	NA	Mesenchymal	NON G-CIMP	0.2	1	NA	NA	Mesenchymal	NA	NA	Male	0.2773890194222248	Mesenchymal
+TCGA.06.0141	GBM	Primary	Mesenchymal	NON G-CIMP	10.3	1	Wild-type	Unmethylated	Mesenchymal	62.8	TMZ Chemoradiation, TMZ Chemo	Male	0.791726836715388	Mesenchymal
+TCGA.06.0142	GBM	NA	Proneural	NON G-CIMP	2.2	1	NA	NA	Neural	NA	NA	Male	0.13115809706900558	Proneural
+TCGA.06.0143	GBM	Primary	Mesenchymal	NON G-CIMP	11.7	1	Wild-type	Unmethylated	Mesenchymal	58.5	Standard Radiation, TMZ Chemo	Male	0.3224187130332061	Mesenchymal
+TCGA.06.0145	GBM	Primary	Classical	NON G-CIMP	2.3	1	Wild-type	Methylated	Classical	53.8	Unspecified Radiation	Female	0.9497100484932007	Classical
+TCGA.06.0146	GBM	Primary	Proneural	G-CIMP	20.1	1	NA	NA	Proneural	33.5	Alkylating Chemoradiation, Alkylating Chemo	Female	0.7673465230219308	Proneural
+TCGA.06.0147	GBM	Primary	Mesenchymal	NON G-CIMP	17.8	1	Wild-type	Methylated	Mesenchymal	51.3	Standard Radiation, TMZ Chemo	Female	0.9972020796120572	Mesenchymal
+TCGA.06.0148	GBM	Primary	Classical	NON G-CIMP	10.1	1	Wild-type	Unmethylated	Classical	76.2	Standard Radiation	Male	0.01326072772184833	Mesenchymal
+TCGA.06.0149	GBM	Primary	Mesenchymal	NON G-CIMP	8.6	1	NA	NA	Mesenchymal	74.8	Standard Radiation, TMZ Chemo	Female	0.05186559636207168	Mesenchymal
+TCGA.06.0152	GBM	Primary	Classical	NON G-CIMP	12.3	1	Wild-type	NA	Mesenchymal	68	Nonstandard Radiation	Male	0.019790571687756706	Classical
+TCGA.06.0154	GBM	Primary	Mesenchymal	NON G-CIMP	13.9	1	Wild-type	NA	Mesenchymal	54.8	Standard Radiation	Male	0.14487102434642055	Mesenchymal
+TCGA.06.0155	GBM	Primary	Mesenchymal	NON G-CIMP	10.4	1	Wild-type	Unmethylated	Mesenchymal	61.6	Standard Radiation, Alkylating Chemo	Male	0.8778620088196162	Mesenchymal
+TCGA.06.0156	GBM	Primary	Proneural	NON G-CIMP	5.8	1	Wild-type	NA	Proneural	57.3	Standard Radiation	Male	9.998000299961666e-5	Mesenchymal
+TCGA.06.0157	GBM	Primary	Classical	NON G-CIMP	3.2	1	Wild-type	NA	Classical	63.3	Standard Radiation	Female	0.9242749757620982	Classical
+TCGA.06.0158	GBM	Primary	Classical	NON G-CIMP	10.8	1	Wild-type	NA	Classical	73.5	Standard Radiation, Alkylating Chemo	Male	0.9730061890321318	Classical
+TCGA.06.0160	GBM	NA	Proneural	G-CIMP	11.8	1	NA	NA	Neural	NA	NA	Female	0.5258948157778961	Proneural
+TCGA.06.0162	GBM	Primary	Proneural	NON G-CIMP	3.4	1	NA	NA	Neural	47.3	Nonstandard Radiation	Female	0.006537642406142278	Proneural
+TCGA.06.0164	GBM	Primary	Mesenchymal	NON G-CIMP	56.9	1	NA	NA	Mesenchymal	47.9	Standard Radiation, Alkylating Chemo	Male	0.8552468120851152	Mesenchymal
+TCGA.06.0166	GBM	Primary	Proneural	NON G-CIMP	5.8	1	Wild-type	NA	Proneural	51.8	Standard Radiation, Alkylating Chemo	Male	0.00431421711343515	Proneural
+TCGA.06.0167	GBM	NA	Proneural	NON G-CIMP	11.4	1	NA	NA	Neural	NA	NA	NA	0.80233952407179	Proneural
+TCGA.06.0168	GBM	Primary	Mesenchymal	NON G-CIMP	19.7	1	Wild-type	NA	Mesenchymal	59.6	TMZ Chemoradiation, TMZ Chemo	Female	0.8537452624100658	Mesenchymal
+TCGA.06.0169	GBM	Primary	Mesenchymal	NON G-CIMP	3.3	1	Wild-type	Unmethylated	Mesenchymal	68.8	TMZ Chemoradiation, TMZ Chemo	Male	0.033793241013864765	Mesenchymal
+TCGA.06.0171	GBM	Primary	Proneural	NON G-CIMP	13.1	1	Wild-type	NA	Neural	65.9	Nonstandard Radiation, TMZ Chemo	Male	0.18796684475138126	Proneural
+TCGA.06.0173	GBM	Primary	Classical	NON G-CIMP	4.5	1	Wild-type	NA	Neural	72.7	Unspecified Radiation	Female	0.001032543480978169	Classical
+TCGA.06.0174	GBM	Primary	Proneural	NON G-CIMP	3.2	1	Wild-type	NA	Proneural	54.3	Nonstandard Radiation	Male	0.9212720963680047	Proneural
+TCGA.06.0175	GBM	Primary	Mesenchymal	NON G-CIMP	4	1	NA	NA	Mesenchymal	70	Standard Radiation	Male	0.06359687998803364	Mesenchymal
+TCGA.06.0176	GBM	Primary	Mesenchymal	NON G-CIMP	91	0	Wild-type	NA	Mesenchymal	35	Standard Radiation, TMZ Chemo	Male	0.8318336249566725	Mesenchymal
+TCGA.06.0177	GBM	Primary	Proneural	NON G-CIMP	4.2	1	NA	NA	Proneural	64.3	Unspecified Radiation	Male	0.2787442483628848	Proneural
+TCGA.06.0178	GBM	Primary	Proneural	G-CIMP	88.1	1	Wild-type	NA	Neural	39	TMZ Chemoradiation, TMZ Chemo	Male	0.9671065690151316	Proneural
+TCGA.06.0179	GBM	Primary	Mesenchymal	NON G-CIMP	20.2	1	NA	NA	Neural	64.2	Standard Radiation, TMZ Chemo	Male	0.20049009997510367	Mesenchymal
+TCGA.06.0182	GBM	Primary	Classical	NON G-CIMP	3.6	1	NA	NA	Neural	76.6	Unspecified Radiation	Male	0.5494670610931115	Classical
+TCGA.06.0184	GBM	Primary	Mesenchymal	NON G-CIMP	69.9	1	Wild-type	NA	Mesenchymal	63.8	Standard Radiation, TMZ Chemo	Male	0.38066734272478125	Classical
+TCGA.06.0185	GBM	Primary	Classical	NON G-CIMP	73.8	0	Wild-type	NA	Neural	54.5	TMZ Chemoradiation, TMZ Chemo	Male	0.9919107079393055	Classical
+TCGA.06.0187	GBM	Primary	Classical	NON G-CIMP	27.2	1	Wild-type	NA	Classical	69.3	Standard Radiation, TMZ Chemo	Male	0.12623686136535808	Classical
+TCGA.06.0188	GBM	Primary	Proneural	NON G-CIMP	44.6	1	Wild-type	NA	Neural	71.4	Standard Radiation, TMZ Chemo	Male	0.21306595467840483	Proneural
+TCGA.06.0189	GBM	Primary	Mesenchymal	NON G-CIMP	15.4	1	Wild-type	NA	Mesenchymal	55.6	Standard Radiation, TMZ Chemo	Male	0.7815436834478733	Mesenchymal
+TCGA.06.0190	GBM	Primary	Mesenchymal	NON G-CIMP	10.4	1	Wild-type	NA	Mesenchymal	62.5	Standard Radiation, TMZ Chemo	Male	0.692944204229712	Mesenchymal
+TCGA.06.0192	GBM	Primary	Mesenchymal	NON G-CIMP	39	1	Wild-type	NA	Mesenchymal	58.2	Standard Radiation	Male	0.6881935144151822	Mesenchymal
+TCGA.06.0194	GBM	Primary	Mesenchymal	NON G-CIMP	4.7	1	NA	NA	Mesenchymal	37.9	Unspecified Radiation	Female	0.723506831398652	Mesenchymal
+TCGA.06.0195	GBM	Primary	Proneural	NON G-CIMP	7.4	1	Wild-type	NA	Neural	63.3	Nonstandard Radiation	Male	0.5505888967147686	Proneural
+TCGA.06.0197	GBM	Primary	Mesenchymal	NON G-CIMP	5.6	1	Wild-type	NA	Mesenchymal	66	Unspecified Radiation	Female	0.998300329951006	Mesenchymal
+TCGA.06.0201	GBM	Primary	Mesenchymal	NON G-CIMP	0.4	1	Wild-type	NA	Mesenchymal	51.1	Unspecified Radiation	Female	0.954609068640181	Mesenchymal
+TCGA.06.0206	GBM	Primary	Mesenchymal	NON G-CIMP	7.7	1	Wild-type	NA	Mesenchymal	40.9	Unspecified Radiation, Alkylating Chemo	Male	0.9967006499030128	Mesenchymal
+TCGA.06.0208	GBM	Primary	Classical	NON G-CIMP	8.4	1	Wild-type	NA	Neural	52.3	Nonstandard Radiation	Female	0.6295191898668347	Classical
+TCGA.06.0210	GBM	Primary	Mesenchymal	NON G-CIMP	7.4	1	Wild-type	NA	Mesenchymal	72.8	Standard Radiation	Female	0.5626774988734505	Mesenchymal
+TCGA.06.0211	GBM	Primary	Classical	NON G-CIMP	11.8	1	Wild-type	NA	Classical	48	Standard Radiation, Alkylating Chemo	Male	9.986002699601711e-5	Classical
+TCGA.06.0213	GBM	Primary	Mesenchymal	NON G-CIMP	0.5	1	Wild-type	NA	Neural	55.1	Unspecified Radiation	Female	0.8662153782621936	Mesenchymal
+TCGA.06.0214	GBM	Primary	Classical	NON G-CIMP	15	1	Wild-type	NA	Neural	66.2	Standard Radiation	Male	0.3150697928907243	Classical
+TCGA.06.0216	GBM	Primary	Proneural	NON G-CIMP	24.2	1	Wild-type	NA	Proneural	61.7	Standard Radiation	Female	0.7876642192795023	Classical
+TCGA.06.0219	GBM	Primary	Proneural	NON G-CIMP	0.7	1	Wild-type	NA	Neural	67	Unspecified Radiation	Male	0.18047654288665743	Proneural
+TCGA.06.0221	GBM	Primary	Proneural	G-CIMP	19.8	1	Mutant	NA	Neural	31	Standard Radiation	Male	0.9940095981402759	Proneural
+TCGA.06.0237	GBM	Primary	Proneural	NON G-CIMP	13.6	1	Wild-type	NA	Neural	75.9	TMZ Chemoradiation, TMZ Chemo	Female	0.16845980635413138	Proneural
+TCGA.06.0238	GBM	Primary	Proneural	NON G-CIMP	13.3	1	Wild-type	NA	Proneural	46.6	TMZ Chemoradiation, TMZ Chemo	Male	0.9712057491381152	Proneural
+TCGA.06.0240	GBM	NA	Proneural	NON G-CIMP	20.4	1	NA	NA	Neural	NA	NA	Male	0.9957012497930291	Proneural
+TCGA.06.0241	GBM	Primary	Proneural	NON G-CIMP	48.7	1	Wild-type	NA	Proneural	66	Standard Radiation	Female	0.9964007098940135	Proneural
+TCGA.06.0394	GBM	Primary	Mesenchymal	NON G-CIMP	10.8	1	NA	NA	Classical	51.8	Nonstandard Radiation, Alkylating Chemo	Male	0.008851059699549472	Mesenchymal
+TCGA.06.0397	GBM	Primary	Mesenchymal	NON G-CIMP	9	1	NA	NA	Mesenchymal	57.5	Nonstandard Radiation, Alkylating Chemo	Female	0.7224766274497443	Mesenchymal
+TCGA.06.0402	GBM	Primary	Classical	NON G-CIMP	0.3	1	NA	NA	Classical	71.3	Unspecified Radiation	Male	0.977332203785921	Classical
+TCGA.06.0409	GBM	Primary	Mesenchymal	NON G-CIMP	72.4	1	NA	NA	Mesenchymal	43.9	Standard Radiation, Alkylating Chemo	Male	0.31393720941874437	Mesenchymal
+TCGA.06.0410	GBM	Primary	Proneural	NON G-CIMP	4.7	1	NA	NA	Proneural	76.9	Unspecified Radiation	Female	0.9816036694500729	Proneural
+TCGA.06.0412	GBM	Primary	Mesenchymal	NON G-CIMP	9.6	1	NA	NA	Mesenchymal	56.5	Nonstandard Radiation	Female	0.057371305165253995	Mesenchymal
+TCGA.06.0413	GBM	Primary	Proneural	NON G-CIMP	3.2	1	NA	NA	Proneural	77.8	Unspecified Radiation	Female	0.99950008998700135	Proneural
+TCGA.06.0414	GBM	Primary	Proneural	NON G-CIMP	35.1	1	NA	NA	Proneural	63.6	Nonstandard Radiation, Alkylating Chemo	Male	0.9892042292621046	Proneural
+TCGA.06.0644	GBM	Primary	Mesenchymal	NON G-CIMP	12.6	1	Wild-type	NA	Mesenchymal	71.9	Standard Radiation, TMZ Chemo	Male	0.9945010898370212	Mesenchymal
+TCGA.06.0645	GBM	Primary	Mesenchymal	NON G-CIMP	5.8	1	Wild-type	NA	Mesenchymal	56	Unspecified Radiation	Female	0.6881881954790227	Mesenchymal
+TCGA.06.0646	GBM	Primary	Proneural	NON G-CIMP	5.8	1	Wild-type	NA	Proneural	61	TMZ Chemoradiation, TMZ Chemo	Male	0.038160497518891154	Proneural
+TCGA.06.0648	GBM	Primary	Proneural	NON G-CIMP	9.8	1	Wild-type	NA	Proneural	78	Standard Radiation, TMZ Chemo	Male	0.999000189972004	Proneural
+TCGA.06.0649	GBM	Primary	Mesenchymal	NON G-CIMP	2.1	1	Wild-type	NA	Neural	73.4	Unspecified Radiation	Female	0.33713143034261756	Mesenchymal
+TCGA.06.0650	GBM	Primary	Mesenchymal	NON G-CIMP	23.6	1	Wild-type	Unmethylated	Mesenchymal	39.9	TMZ Chemoradiation, TMZ Chemo	Female	0.5920561028588678	Mesenchymal
+TCGA.06.0673	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.06.0675	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.06.0676	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.06.0678	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.06.0680	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.06.0681	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.06.0686	GBM	Primary	Proneural	NON G-CIMP	14.2	1	Wild-type	NA	Proneural	53.4	Standard Radiation, TMZ Chemo	Male	0.9984003099540056	Proneural
+TCGA.06.0743	GBM	Primary	Classical	NON G-CIMP	26.4	1	Wild-type	NA	Classical	69.6	Standard Radiation	Male	0.9826622077318323	Classical
+TCGA.06.0744	GBM	Primary	Classical	NON G-CIMP	46.9	1	Wild-type	NA	Classical	67	Standard Radiation, TMZ Chemo	Male	0.9043430423480991	Classical
+TCGA.06.0745	GBM	Primary	Proneural	NON G-CIMP	7.9	1	Wild-type	NA	Proneural	59.9	Standard Radiation	Male	0.07762630396294422	Proneural
+TCGA.06.0747	GBM	Primary	Classical	NON G-CIMP	2.7	1	Wild-type	NA	Classical	53.8	Standard Radiation	Male	0.9991002299630055	Classical
+TCGA.06.0749	GBM	Primary	Classical	NON G-CIMP	2.7	1	Wild-type	NA	Neural	50.8	Nonstandard Radiation	Male	0.14181531551874277	Classical
+TCGA.06.0750	GBM	Primary	Mesenchymal	NON G-CIMP	0.9	1	Wild-type	NA	Mesenchymal	43.9	Unspecified Radiation	Male	0.5108206307656407	Mesenchymal
+TCGA.06.0875	GBM	Primary	Proneural	NON G-CIMP	43.5	0	Wild-type	Unmethylated	Proneural	61.1	Standard Radiation, TMZ Chemo	Female	0.9987002499630047	Proneural
+TCGA.06.0876	GBM	Primary	Proneural	NON G-CIMP	46.2	0	Wild-type	Methylated	Classical	72.2	Standard Radiation, TMZ Chemo	Female	8.950009908517424e-4	Classical
+TCGA.06.0877	GBM	Primary	Classical	NON G-CIMP	5.7	1	Wild-type	Methylated	Classical	78.7	Nonstandard Radiation	Male	0.27404518822190393	Classical
+TCGA.06.0878	GBM	Primary	Mesenchymal	NON G-CIMP	7.2	0	Wild-type	Unmethylated	Mesenchymal	74.8	TMZ Chemoradiation, TMZ Chemo	Male	0.043074144740310544	Mesenchymal
+TCGA.06.0879	GBM	Primary	Classical	NON G-CIMP	40.4	1	Wild-type	Methylated	Classical	52.4	Standard Radiation, TMZ Chemo	Male	0.4494133628332995	Classical
+TCGA.06.0881	GBM	Primary	Mesenchymal	NON G-CIMP	16.6	1	Wild-type	Unmethylated	Mesenchymal	50	Standard Radiation, TMZ Chemo	Male	0.9981003699450074	Mesenchymal
+TCGA.06.0882	GBM	Primary	Classical	NON G-CIMP	20.8	1	Wild-type	Unmethylated	Neural	30.4	TMZ Chemoradiation, TMZ Chemo	Male	0.711254731941064	Classical
+TCGA.06.0939	GBM	Primary	Mesenchymal	NON G-CIMP	26.8	1	Wild-type	Unmethylated	Neural	79.1	TMZ Chemoradiation, TMZ Chemo	Female	0.9944061488261728	Mesenchymal
+TCGA.06.1084	GBM	Primary	Mesenchymal	NON G-CIMP	23.9	1	Wild-type	Methylated	Mesenchymal	54.5	Standard Radiation, TMZ Chemo	Male	0.9986002699600051	Mesenchymal
+TCGA.06.1086	GBM	Primary	Mesenchymal	NON G-CIMP	6.8	1	NA	Unmethylated	Mesenchymal	42.8	Standard Radiation, TMZ Chemo	Male	0.44164806597032524	Mesenchymal
+TCGA.06.1087	GBM	Primary	Proneural	NON G-CIMP	4	1	Wild-type	Unmethylated	Proneural	75.7	TMZ Chemoradiation, TMZ Chemo	Male	0.016196760485935234	Proneural
+TCGA.06.1800	GBM	Primary	Mesenchymal	NON G-CIMP	26.8	1	Wild-type	Methylated	Mesenchymal	61.1	Standard Radiation, TMZ Chemo	Male	3.998000359948115e-4	Mesenchymal
+TCGA.06.1801	GBM	Primary	Proneural	NON G-CIMP	11.8	1	Wild-type	Unmethylated	Proneural	56.2	Standard Radiation, TMZ Chemo	Female	0.8852458219831445	Proneural
+TCGA.06.1802	GBM	Primary	Proneural	NON G-CIMP	15.3	1	NA	Methylated	Mesenchymal	61.7	Standard Radiation, TMZ Chemo	Male	0.021511997385403003	Proneural
+TCGA.06.1804	GBM	Primary	Classical	NON G-CIMP	13.6	1	Wild-type	Methylated	Classical	81.6	Unspecified Therapy	Female	0.9998000299960005	Classical
+TCGA.06.1805	GBM	Primary	Proneural	G-CIMP	33.9	0	Mutant	Unmethylated	Proneural	28.9	TMZ Chemoradiation, TMZ Chemo	Female	0.2298549967021098	Proneural
+TCGA.06.2557	GBM	Primary	Classical	NON G-CIMP	1.1	1	Wild-type	Unmethylated	Mesenchymal	76.6	Unspecified Radiation	Male	0.6689505032098533	Classical
+TCGA.06.2558	GBM	Primary	Proneural	NON G-CIMP	12.5	1	Wild-type	Unmethylated	Proneural	75.3	Standard Radiation	Female	0.9184896428865257	Proneural
+TCGA.06.2559	GBM	Primary	Proneural	NON G-CIMP	4.9	1	Wild-type	Methylated	Proneural	83.7	TMZ Chemoradiation, TMZ Chemo	Male	0.7065272474852301	Proneural
+TCGA.06.2561	GBM	Primary	Classical	NON G-CIMP	17.6	1	Wild-type	Unmethylated	Mesenchymal	53.4	TMZ Chemoradiation, TMZ Chemo	Female	0.9888267147687785	Classical
+TCGA.06.2562	GBM	Primary	Mesenchymal	NON G-CIMP	12.6	1	Wild-type	Unmethylated	Mesenchymal	81.5	Nonstandard Radiation, TMZ Chemo	Male	0.14783347182729967	Mesenchymal
+TCGA.06.2563	GBM	Primary	Classical	NON G-CIMP	30.6	0	Wild-type	Methylated	Classical	72.9	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Classical
+TCGA.06.2564	GBM	Primary	Classical	NON G-CIMP	6	0	Wild-type	Unmethylated	Classical	50.5	Nonstandard Radiation, TMZ Chemo	Male	0.9963037292911047	Classical
+TCGA.06.2565	GBM	Primary	Classical	NON G-CIMP	16.6	1	Wild-type	Methylated	Classical	59	TMZ Chemoradiation, TMZ Chemo	Male	0.9996000699900011	Classical
+TCGA.06.2566	GBM	Primary	Classical	NON G-CIMP	6	1	Wild-type	Unmethylated	Neural	23.1	TMZ Chemoradiation, TMZ Chemo	Female	0.9988003199480074	Classical
+TCGA.06.2567	GBM	Primary	Classical	NON G-CIMP	4.4	1	Wild-type	Methylated	Neural	65	Nonstandard Radiation, TMZ Chemo	Male	0.609314880930664	Classical
+TCGA.06.2569	GBM	Primary	Mesenchymal	NON G-CIMP	0.4	0	Wild-type	Unmethylated	Mesenchymal	24.4	Unspecified Radiation	Female	0.12972795311209845	Proneural
+TCGA.06.2570	GBM	Primary	Proneural	G-CIMP	31.5	0	Mutant	Methylated	Proneural	21.7	TMZ Chemoradiation, TMZ Chemo	Female	0.9802078286321946	Proneural
+TCGA.06.5408	GBM	Primary	Classical	NON G-CIMP	11.7	1	Wild-type	Unmethylated	Classical	54.9	Standard Radiation, TMZ Chemo	Female	0.2517582258372506	Classical
+TCGA.06.5410	GBM	Primary	Mesenchymal	NON G-CIMP	3.5	1	Wild-type	Methylated	Mesenchymal	72.3	Unspecified Radiation	Female	0.9819749951812139	Mesenchymal
+TCGA.06.5411	GBM	Primary	Proneural	NON G-CIMP	8.3	1	Wild-type	Unmethylated	Neural	51.6	Standard Radiation, TMZ Chemo	Male	0.9322105885601821	Proneural
+TCGA.06.5412	GBM	Primary	Mesenchymal	NON G-CIMP	4.5	1	Wild-type	Methylated	Mesenchymal	78.8	Standard Radiation, TMZ Chemo	Female	0.3077384492327688	Mesenchymal
+TCGA.06.5413	GBM	Primary	Mesenchymal	NON G-CIMP	8.8	0	Wild-type	Unmethylated	Neural	67	Standard Radiation, TMZ Chemo	Male	0.06668875158279584	Mesenchymal
+TCGA.06.5414	GBM	Primary	Classical	NON G-CIMP	9	0	Wild-type	Unmethylated	Classical	61.7	TMZ Chemoradiation, TMZ Chemo	Male	0.45720855371717145	Classical
+TCGA.06.5415	GBM	Primary	Classical	NON G-CIMP	8.6	0	Wild-type	Unmethylated	Classical	60.8	TMZ Chemoradiation, TMZ Chemo	Male	0.6980603809432078	Classical
+TCGA.06.5416	GBM	Primary	Proneural	NON G-CIMP	6.7	0	NA	Unmethylated	Proneural	23.4	TMZ Chemoradiation, TMZ Chemo	Female	0.8975204869274093	Proneural
+TCGA.06.5417	GBM	Primary	Proneural	G-CIMP	5.1	0	Mutant	Methylated	Proneural	45.4	TMZ Chemoradiation, TMZ Chemo	Female	0.9685273348477568	Proneural
+TCGA.06.5418	GBM	Primary	Mesenchymal	NON G-CIMP	2.7	1	Wild-type	Unmethylated	Mesenchymal	75.5	Unspecified Radiation	Female	0.004423115332702253	Classical
+TCGA.06.5856	GBM	Primary	Classical	NON G-CIMP	3.8	1	Wild-type	Unmethylated	Classical	58.1	Unspecified Radiation	Male	0.0019250149777543515	Proneural
+TCGA.06.5858	GBM	Primary	Classical	NON G-CIMP	6.2	0	Wild-type	Methylated	Mesenchymal	45.6	TMZ Chemoradiation, TMZ Chemo	Female	0.5073448059653591	Classical
+TCGA.06.5859	GBM	Primary	Classical	NON G-CIMP	4.6	0	Wild-type	Unmethylated	Neural	63.5	TMZ Chemoradiation, TMZ Chemo	Male	0.6892468637347834	Classical
+TCGA.06.6389	GBM	Primary	Proneural	G-CIMP	7.8	0	Mutant	Methylated	Proneural	50	TMZ Chemoradiation, TMZ Chemo	Female	0.9564795845183012	Proneural
+TCGA.06.6390	GBM	Primary	Classical	NON G-CIMP	5.4	1	Wild-type	Unmethylated	Classical	58.4	TMZ Chemoradiation, TMZ Chemo	Male	0.7371575211241993	Classical
+TCGA.06.6391	GBM	Primary	Proneural	NON G-CIMP	1.5	1	Wild-type	Methylated	Proneural	44.4	Unspecified Radiation	Female	0.4898020346950405	Proneural
+TCGA.08.0244	GBM	Primary	Classical	NON G-CIMP	22.7	1	Wild-type	NA	Classical	62.1	TMZ Chemoradiation, TMZ Chemo	Male	0.9297300446937607	Classical
+TCGA.08.0245	GBM	Primary	Proneural	NON G-CIMP	37.8	1	Wild-type	NA	Proneural	31.8	Standard Radiation, TMZ Chemo	Female	0.9985002899570055	Proneural
+TCGA.08.0246	GBM	Primary	Classical	NON G-CIMP	4.2	1	Wild-type	NA	Classical	57.4	TMZ Chemoradiation, TMZ Chemo	Female	0.5568886167077725	Classical
+TCGA.08.0344	GBM	Primary	Proneural	G-CIMP	115.9	1	Mutant	NA	Proneural	66.4	Nonstandard Radiation, Alkylating Chemo	Male	0.9998000299960005	Proneural
+TCGA.08.0345	GBM	Primary	Proneural	NON G-CIMP	1.7	1	Wild-type	NA	Proneural	71.1	Nonstandard Radiation	Female	0.0011706058671205493	Proneural
+TCGA.08.0346	GBM	Primary	Mesenchymal	NON G-CIMP	8.4	1	NA	NA	Mesenchymal	69.6	Standard Radiation	Male	0.17956922435943565	Mesenchymal
+TCGA.08.0347	GBM	Primary	Proneural	NON G-CIMP	25.7	1	Wild-type	NA	Proneural	50.3	Standard Radiation, Alkylating Chemo	Male	0.3987529754173866	Proneural
+TCGA.08.0348	GBM	Primary	Proneural	NON G-CIMP	12.2	1	Wild-type	NA	Proneural	64	TMZ Chemoradiation, TMZ Chemo	Male	0.8974002309798019	Proneural
+TCGA.08.0349	GBM	Primary	Classical	NON G-CIMP	9.8	1	Wild-type	NA	Neural	46.4	TMZ Chemoradiation, TMZ Chemo	Male	0.298521652684247	Classical
+TCGA.08.0350	GBM	Primary	Proneural	G-CIMP	29.2	1	Wild-type	NA	Proneural	32.6	Standard Radiation, TMZ Chemo	Male	0.9963026894990737	Proneural
+TCGA.08.0351	GBM	Primary	Proneural	G-CIMP	65.3	1	Wild-type	NA	Proneural	40.6	Standard Radiation, TMZ Chemo	Male	0.08428884138883383	Proneural
+TCGA.08.0352	GBM	Primary	Mesenchymal	NON G-CIMP	1.3	1	Wild-type	NA	Mesenchymal	79.7	Unspecified Radiation	Male	0.004990501849725089	Mesenchymal
+TCGA.08.0353	GBM	Primary	Proneural	NON G-CIMP	8.4	1	Wild-type	NA	Proneural	58.4	TMZ Chemoradiation, TMZ Chemo	Male	0.07748149292659937	Classical
+TCGA.08.0354	GBM	Primary	Classical	NON G-CIMP	17.9	1	Wild-type	NA	Classical	52.6	Standard Radiation, TMZ Chemo	Female	0.11232432401195434	Classical
+TCGA.08.0355	GBM	Primary	Classical	NON G-CIMP	24.6	1	Wild-type	NA	Classical	30.4	TMZ Chemoradiation, TMZ Chemo	Female	0.9093181272813621	Classical
+TCGA.08.0356	GBM	Primary	Classical	NON G-CIMP	31.1	1	Wild-type	NA	Classical	60	TMZ Chemoradiation, TMZ Chemo	Female	0.03209358096287162	Classical
+TCGA.08.0357	GBM	Primary	Classical	NON G-CIMP	37.6	1	Wild-type	NA	Classical	49.7	TMZ Chemoradiation, TMZ Chemo	Male	0.9910035093880873	Classical
+TCGA.08.0358	GBM	Primary	Classical	NON G-CIMP	22.3	1	Wild-type	NA	Classical	50.3	TMZ Chemoradiation, TMZ Chemo	Male	0.999000189972004	Classical
+TCGA.08.0359	GBM	Primary	Proneural	NON G-CIMP	3.4	1	Wild-type	NA	Proneural	59.5	Nonstandard Radiation	Female	0.38783106990770816	Proneural
+TCGA.08.0360	GBM	Primary	Mesenchymal	NON G-CIMP	15.4	1	Wild-type	NA	Mesenchymal	76.4	Standard Radiation	Male	0.9908083884142331	Mesenchymal
+TCGA.08.0373	GBM	Primary	Mesenchymal	NON G-CIMP	4.4	1	Wild-type	NA	Mesenchymal	69.2	Unspecified Therapy	Male	0.02002531473679943	Mesenchymal
+TCGA.08.0375	GBM	Primary	Classical	NON G-CIMP	12.2	1	Wild-type	NA	Classical	51.9	Standard Radiation	Female	0.9968020696180557	Classical
+TCGA.08.0380	GBM	Primary	Classical	NON G-CIMP	14.9	1	Wild-type	NA	Neural	74.7	Standard Radiation, TMZ Chemo	Female	0.6326055725594323	Classical
+TCGA.08.0385	GBM	Primary	Proneural	G-CIMP	2.7	1	Wild-type	NA	Proneural	71.8	Unspecified Therapy	Male	0.9333133280012661	Proneural
+TCGA.08.0386	GBM	Primary	Classical	NON G-CIMP	18	1	Wild-type	NA	Neural	74.1	TMZ Chemoradiation, TMZ Chemo	Male	0.9869441413022977	Classical
+TCGA.08.0389	GBM	Primary	Classical	NON G-CIMP	15.3	1	Wild-type	NA	Neural	59.2	Nonstandard Radiation, TMZ Chemo	Male	0.37899624696064566	Classical
+TCGA.08.0390	GBM	Primary	Mesenchymal	NON G-CIMP	14	1	Wild-type	NA	Mesenchymal	69.3	TMZ Chemoradiation, TMZ Chemo	Male	0.7184066714816374	Mesenchymal
+TCGA.08.0392	GBM	Primary	Mesenchymal	NON G-CIMP	0.7	1	NA	NA	Mesenchymal	60.4	Unspecified Radiation	Male	0.9963028894590793	Mesenchymal
+TCGA.08.0509	GBM	Primary	Mesenchymal	NON G-CIMP	12.6	1	NA	NA	Mesenchymal	63.7	Unspecified Therapy	Male	0.4466074140511152	Mesenchymal
+TCGA.08.0510	GBM	Primary	Mesenchymal	NON G-CIMP	4.3	1	NA	NA	Mesenchymal	75.8	TMZ Chemoradiation, TMZ Chemo	Male	0.02416466682498831	Classical
+TCGA.08.0511	GBM	Primary	Classical	NON G-CIMP	7.7	1	NA	NA	Classical	69.3	Nonstandard Radiation, Alkylating Chemo	NA	0.6999600010002001	Classical
+TCGA.08.0512	GBM	Primary	Mesenchymal	NON G-CIMP	42.1	1	NA	NA	Mesenchymal	48.8	Standard Radiation	Male	0.9177246458935746	Mesenchymal
+TCGA.08.0514	GBM	Primary	Classical	NON G-CIMP	11.1	1	NA	NA	Classical	69.7	Standard Radiation	Female	0.8501709873008295	Classical
+TCGA.08.0516	GBM	Primary	Classical	NON G-CIMP	19.6	1	NA	NA	Classical	14.5	Nonstandard Radiation	Male	0.9997000499930009	Classical
+TCGA.08.0517	GBM	Recurrent	Proneural	G-CIMP	58.7	1	NA	NA	Proneural	35	Standard Radiation, Alkylating Chemo	Female	0.7042633802813094	Proneural
+TCGA.08.0518	GBM	Primary	Classical	NON G-CIMP	19.3	1	NA	NA	Classical	60.2	Standard Radiation	Female	0.9674065090241295	Classical
+TCGA.08.0520	GBM	Primary	Classical	NON G-CIMP	10.8	1	NA	NA	Neural	70.5	Standard Radiation, TMZ Chemo	Male	0.14565792695802923	Classical
+TCGA.08.0521	GBM	Primary	Mesenchymal	NON G-CIMP	4.8	1	NA	NA	Classical	17.5	TMZ Chemoradiation, TMZ Chemo	Male	0.16226124612816192	Classical
+TCGA.08.0522	GBM	Primary	Mesenchymal	NON G-CIMP	20.9	1	NA	NA	Mesenchymal	61.4	TMZ Chemoradiation, TMZ Chemo	NA	0.9997000499930009	Mesenchymal
+TCGA.08.0524	GBM	Primary	Proneural	G-CIMP	7.3	1	NA	NA	Proneural	17.7	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Proneural
+TCGA.08.0525	GBM	Secondary	Classical	NON G-CIMP	16	1	NA	NA	Classical	52	TMZ Chemoradiation, TMZ Chemo	Male	0.012394321011854491	Classical
+TCGA.08.0529	GBM	Primary	Classical	NON G-CIMP	18.4	1	NA	NA	Classical	56.3	TMZ Chemoradiation, TMZ Chemo	Female	0.9961007698850155	Classical
+TCGA.08.0531	GBM	Primary	Classical	NON G-CIMP	7.6	1	NA	NA	Classical	64.3	TMZ Chemoradiation, TMZ Chemo	Male	0.9996000699900011	Classical
+TCGA.08.0623	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.08.0625	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.08.0626	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.08.0627	Non-tumor	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+TCGA.12.0616	GBM	Primary	Proneural	NON G-CIMP	14.7	1	Wild-type	NA	Proneural	36.8	TMZ Chemoradiation, TMZ Chemo	Female	0.9941011698250236	Proneural
+TCGA.12.0618	GBM	Primary	Proneural	NON G-CIMP	13	1	Wild-type	NA	Proneural	49.5	TMZ Chemoradiation, TMZ Chemo	Male	0.9985002899570055	Proneural
+TCGA.12.0619	GBM	Primary	Mesenchymal	NON G-CIMP	34.9	1	Wild-type	NA	Mesenchymal	60	TMZ Chemoradiation, TMZ Chemo	Male	0.9384101585841818	Mesenchymal
+TCGA.12.0620	GBM	Primary	Mesenchymal	NON G-CIMP	10.4	1	Wild-type	NA	Mesenchymal	57.7	TMZ Chemoradiation, TMZ Chemo	Male	0.023713707021458603	Mesenchymal
+TCGA.12.0654	GBM	Primary	Mesenchymal	NON G-CIMP	7.6	1	NA	NA	Mesenchymal	48.2	Standard Radiation	Female	0.3807198522223574	Mesenchymal
+TCGA.12.0656	GBM	Primary	Classical	NON G-CIMP	94.8	1	Wild-type	NA	Classical	48.9	Standard Radiation, TMZ Chemo	Female	0.7317536419540727	Classical
+TCGA.12.0657	GBM	Primary	Classical	NON G-CIMP	0.1	1	Wild-type	NA	Classical	69.6	Unspecified Radiation	Male	0.7291541618760835	Classical
+TCGA.12.0670	GBM	Primary	Classical	NON G-CIMP	26	1	Wild-type	Methylated	Neural	60.8	Standard Radiation, TMZ Chemo	Male	0.35161287390908935	Classical
+TCGA.12.0688	GBM	Primary	Classical	NON G-CIMP	26.7	1	Wild-type	NA	Classical	74.2	Standard Radiation, TMZ Chemo	Male	0.9244599787596489	Classical
+TCGA.12.0692	GBM	Primary	Mesenchymal	NON G-CIMP	3.6	1	Wild-type	NA	Classical	75.3	TMZ Chemo	Female	0.008057788361750346	Mesenchymal
+TCGA.12.0703	GBM	Primary	Classical	NON G-CIMP	20.4	1	NA	NA	Classical	46.9	Standard Radiation, Alkylating Chemo	Male	0.9945080884372323	Classical
+TCGA.12.0707	GBM	Primary	Classical	NON G-CIMP	28.4	1	Wild-type	NA	Neural	55.1	Unspecified Therapy	Male	0.7888772166678949	Classical
+TCGA.12.0772	GBM	Primary	Mesenchymal	NON G-CIMP	53.9	1	NA	NA	Mesenchymal	46.6	TMZ Chemoradiation, TMZ Chemo	Male	0.2520107453308261	Mesenchymal
+TCGA.12.0773	GBM	Primary	Mesenchymal	NON G-CIMP	43.2	1	Wild-type	NA	Neural	24.2	Standard Radiation, TMZ Chemo	Male	0.4135593639916074	Mesenchymal
+TCGA.12.0775	GBM	Primary	Mesenchymal	NON G-CIMP	7.6	1	Wild-type	NA	Mesenchymal	75.5	TMZ Chemoradiation, TMZ Chemo	Female	0.8046527913951926	Mesenchymal
+TCGA.12.0776	GBM	Primary	Mesenchymal	NON G-CIMP	9.7	1	NA	NA	Mesenchymal	52.6	TMZ Chemoradiation, TMZ Chemo	Male	0.9389705265049932	Mesenchymal
+TCGA.12.0778	GBM	Primary	Classical	NON G-CIMP	14.9	1	Wild-type	NA	Mesenchymal	53.3	TMZ Chemoradiation, TMZ Chemo	Male	0.010864037083942875	Classical
+TCGA.12.0780	GBM	Primary	Classical	NON G-CIMP	14.9	1	NA	NA	Classical	51	TMZ Chemoradiation, TMZ Chemo	Female	0.9325823042133339	Classical
+TCGA.12.0818	GBM	Secondary	Proneural	G-CIMP	91.8	1	Mutant	Methylated	Proneural	45.6	Alkylating Chemoradiation, Alkylating Chemo	Female	0.7609386546596811	Proneural
+TCGA.12.0819	GBM	Secondary	Classical	NON G-CIMP	24.8	1	Wild-type	Methylated	Classical	49.7	Standard Radiation, Alkylating Chemo	Female	0.7138572214171444	Classical
+TCGA.12.0820	GBM	Primary	Classical	NON G-CIMP	18.5	1	Wild-type	Unmethylated	Classical	40.7	Standard Radiation, TMZ Chemo	Male	0.2057843510719418	Classical
+TCGA.12.0821	GBM	Primary	Proneural	NON G-CIMP	10.6	1	Wild-type	Unmethylated	Neural	62.8	Standard Radiation, Alkylating Chemo	Male	0.08647450423440782	Classical
+TCGA.12.0822	GBM	Primary	Mesenchymal	NON G-CIMP	23.5	1	Wild-type	Methylated	Neural	46	Standard Radiation, TMZ Chemo	Male	0.911926265627612	Mesenchymal
+TCGA.12.0826	GBM	Primary	Classical	NON G-CIMP	27.8	1	Wild-type	Unmethylated	Neural	38	Unspecified Therapy	Female	0.9959015497310383	Classical
+TCGA.12.0827	GBM	Primary	Mesenchymal	G-CIMP	38.8	1	Mutant	Methylated	Mesenchymal	38.6	Standard Radiation, TMZ Chemo	Female	0.02494045166026404	Classical
+TCGA.12.0828	GBM	Primary	Classical	NON G-CIMP	8.9	1	Wild-type	Methylated	Neural	57.2	Standard Radiation, TMZ Chemo	Male	0.20699931806639388	Classical
+TCGA.12.0829	GBM	Primary	Mesenchymal	NON G-CIMP	20.6	1	Wild-type	Methylated	Mesenchymal	75.2	TMZ Chemoradiation, TMZ Chemo	Male	0.33790233615374554	Mesenchymal
+TCGA.12.1088	GBM	Primary	Mesenchymal	NON G-CIMP	127.6	1	Wild-type	Unmethylated	Mesenchymal	53.9	Standard Radiation, Alkylating Chemo	Female	0.16653337166033386	Mesenchymal
+TCGA.12.1089	GBM	Primary	Classical	NON G-CIMP	5.8	1	Wild-type	Unmethylated	Neural	64.1	Standard Radiation, Alkylating Chemo	Male	0.5307938359248765	Classical
+TCGA.12.1090	GBM	Primary	Classical	NON G-CIMP	7.6	1	NA	Methylated	Mesenchymal	58.5	Standard Radiation, Alkylating Chemo	Male	0.6503623210321712	Classical
+TCGA.12.1091	GBM	Primary	Classical	NON G-CIMP	33.2	1	NA	Methylated	Classical	10.9	Standard Radiation, TMZ Chemo	Female	0.9631491205443998	Classical
+TCGA.12.1092	GBM	Primary	Mesenchymal	NON G-CIMP	21.7	1	Wild-type	Methylated	Mesenchymal	58.6	TMZ Chemoradiation, TMZ Chemo	Male	3.999200119984666e-4	Mesenchymal
+TCGA.12.1093	GBM	Primary	Mesenchymal	NON G-CIMP	16	1	Wild-type	Unmethylated	Mesenchymal	66.5	TMZ Chemoradiation, TMZ Chemo	Female	0.6061787581865754	Mesenchymal
+TCGA.12.1094	GBM	Primary	Classical	NON G-CIMP	12.2	1	NA	Unmethylated	Classical	56.4	TMZ Chemoradiation, TMZ Chemo	Male	0.014095770704901322	Classical
+TCGA.12.1095	GBM	Primary	Mesenchymal	NON G-CIMP	15.8	1	NA	Unmethylated	Mesenchymal	65.1	TMZ Chemoradiation, TMZ Chemo	Female	0.20073767045853189	Mesenchymal
+TCGA.12.1096	GBM	Primary	Mesenchymal	NON G-CIMP	9.1	1	NA	Unmethylated	Mesenchymal	55.6	TMZ Chemoradiation, TMZ Chemo	Male	0.04545026949159895	Mesenchymal
+TCGA.12.1097	GBM	Primary	Proneural	NON G-CIMP	14.5	1	NA	Unmethylated	Neural	61.7	TMZ Chemoradiation, TMZ Chemo	Male	0.2679295114184218	Classical
+TCGA.12.1098	GBM	Primary	Classical	NON G-CIMP	4	1	NA	Unmethylated	Classical	75.9	TMZ Chemoradiation, TMZ Chemo	Female	0.4026315496637516	Classical
+TCGA.12.1099	GBM	Primary	Proneural	NON G-CIMP	4.1	1	NA	Unmethylated	Proneural	68.5	TMZ Chemoradiation, TMZ Chemo	Female	0.9706890524826126	Proneural
+TCGA.12.1597	GBM	Primary	Proneural	NON G-CIMP	22.2	1	Wild-type	Methylated	Proneural	62.6	Standard Radiation, TMZ Chemo	Female	0.913917207419344	Proneural
+TCGA.12.1598	GBM	Primary	Proneural	NON G-CIMP	15.7	1	Wild-type	Methylated	Neural	75.9	TMZ Chemoradiation, TMZ Chemo	Female	0.701307331520623	Proneural
+TCGA.12.1599	GBM	Primary	Classical	NON G-CIMP	25.7	1	Wild-type	Methylated	Neural	47.7	TMZ Chemoradiation, TMZ Chemo	Female	0.014292201416794641	Classical
+TCGA.12.1600	GBM	Primary	Classical	NON G-CIMP	14.7	1	Wild-type	Unmethylated	Classical	86	TMZ Chemoradiation, TMZ Chemo	Male	0.9998000299960005	Classical
+TCGA.12.1602	GBM	Primary	Proneural	NON G-CIMP	6.8	1	Wild-type	Methylated	Proneural	58.8	TMZ Chemoradiation, TMZ Chemo	Male	0.23454248915674394	Proneural
+TCGA.12.3644	GBM	Primary	Proneural	NON G-CIMP	59.8	1	Wild-type	Methylated	Neural	47.8	TMZ Chemoradiation, TMZ Chemo	Female	0.08608278258265573	Proneural
+TCGA.12.3646	GBM	Primary	Proneural	NON G-CIMP	44	1	Wild-type	Methylated	Proneural	59.8	TMZ Chemoradiation, TMZ Chemo	Female	0.9996000699900011	Proneural
+TCGA.12.3648	GBM	Primary	Classical	NON G-CIMP	26.9	1	Wild-type	Methylated	Classical	61.5	TMZ Chemoradiation, TMZ Chemo	Female	0.9939012098190242	Classical
+TCGA.12.3649	GBM	Primary	Classical	NON G-CIMP	15.2	1	Wild-type	Unmethylated	Neural	76.2	TMZ Chemo	Male	0.9772045493180911	Classical
+TCGA.12.3650	GBM	Primary	Proneural	NON G-CIMP	10.9	1	Wild-type	Unmethylated	Proneural	46.9	TMZ Chemoradiation, TMZ Chemo	Male	0.35381403365512837	Proneural
+TCGA.12.3651	GBM	Primary	Proneural	NON G-CIMP	12.7	1	Wild-type	Methylated	Neural	77.4	TMZ Chemoradiation, TMZ Chemo	Male	0.9448219861545494	Proneural
+TCGA.12.3652	GBM	Primary	Classical	NON G-CIMP	34.9	1	Wild-type	Unmethylated	Classical	60	TMZ Chemoradiation, TMZ Chemo	Male	0.8949854139673519	Classical
+TCGA.12.3653	GBM	Primary	Classical	NON G-CIMP	14.5	1	Wild-type	Unmethylated	Classical	34.3	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Classical
+TCGA.12.5295	GBM	Primary	Classical	NON G-CIMP	14.9	1	Wild-type	Methylated	Neural	60.7	TMZ Chemoradiation, TMZ Chemo	Female	0.7794442433568868	Classical
+TCGA.12.5299	GBM	Primary	Classical	NON G-CIMP	3.2	1	Wild-type	Unmethylated	Classical	56	TMZ Chemoradiation, TMZ Chemo	Female	0.10931788532975491	Classical
+TCGA.12.5301	GBM	Primary	Proneural	NON G-CIMP	2	1	Wild-type	Methylated	Neural	59.6	TMZ Chemoradiation, TMZ Chemo	Male	0.5207787990324055	Proneural
+TCGA.14.0736	GBM	Primary	Mesenchymal	NON G-CIMP	15.1	1	NA	Unmethylated	Mesenchymal	49.9	Standard Radiation, TMZ Chemo	Male	0.8707605491825575	Mesenchymal
+TCGA.14.0781	GBM	Primary	Mesenchymal	NON G-CIMP	1	1	Wild-type	Unmethylated	Mesenchymal	49	Unspecified Radiation	Male	0.02689462080689244	Mesenchymal
+TCGA.14.0783	GBM	Primary	Mesenchymal	NON G-CIMP	6.2	1	NA	Methylated	Mesenchymal	36	Alkylating Chemoradiation, Alkylating Chemo	Female	0.770602141865605	Mesenchymal
+TCGA.14.0786	GBM	Primary	Classical	NON G-CIMP	23.1	1	Wild-type	Methylated	Classical	50.9	Standard Radiation, TMZ Chemo	Female	0.9982003499480072	Classical
+TCGA.14.0787	GBM	Primary	Classical	NON G-CIMP	2.2	1	Wild-type	Methylated	Classical	69.3	Unspecified Radiation	Male	0.8975814947252398	Classical
+TCGA.14.0789	GBM	Primary	Mesenchymal	NON G-CIMP	11.2	1	Wild-type	Methylated	Mesenchymal	54.9	TMZ Chemoradiation, TMZ Chemo	Male	0.571685657151713	Mesenchymal
+TCGA.14.0790	GBM	Primary	Classical	NON G-CIMP	13.8	1	Wild-type	Methylated	Classical	64.8	TMZ Chemoradiation, TMZ Chemo	Female	0.9996000699900011	Classical
+TCGA.14.0812	GBM	Primary	Mesenchymal	NON G-CIMP	3.2	1	Wild-type	Methylated	Neural	65.9	Alkylating Chemo	Male	0.28118790960619977	Mesenchymal
+TCGA.14.0813	GBM	Primary	Proneural	NON G-CIMP	1.4	1	Wild-type	Methylated	Proneural	78.2	Unspecified Radiation	Male	0.062499509473110684	Proneural
+TCGA.14.0817	GBM	Primary	Mesenchymal	NON G-CIMP	5.4	1	Wild-type	Unmethylated	Neural	69.6	Unspecified Radiation	Female	0.19156320544328007	Proneural
+TCGA.14.0865	GBM	Primary	Proneural	NON G-CIMP	16.5	1	Wild-type	Methylated	Proneural	67.9	TMZ Chemoradiation, TMZ Chemo	Male	0.9998000299960005	Proneural
+TCGA.14.0866	GBM	Primary	Classical	NON G-CIMP	26.3	1	NA	Methylated	Neural	55.2	TMZ Chemoradiation, TMZ Chemo	Male	0.8764168578642587	Classical
+TCGA.14.0867	GBM	Primary	Mesenchymal	NON G-CIMP	2	1	Wild-type	Methylated	Mesenchymal	67.9	Unspecified Radiation	Male	0.00505971800580162	Mesenchymal
+TCGA.14.0871	GBM	Primary	Proneural	NON G-CIMP	28.9	1	Wild-type	Unmethylated	Mesenchymal	75	Standard Radiation	Female	0.8089532012702136	Proneural
+TCGA.14.1034	GBM	Primary	Classical	NON G-CIMP	15.9	1	Wild-type	Methylated	Mesenchymal	60.3	Standard Radiation, Alkylating Chemo	Female	0.02229554066891074	Classical
+TCGA.14.1037	GBM	Primary	Mesenchymal	NON G-CIMP	19.3	1	Wild-type	Unmethylated	Mesenchymal	66.9	Standard Radiation, TMZ Chemo	Female	0.1273918103640091	Mesenchymal
+TCGA.14.1396	GBM	Primary	Mesenchymal	NON G-CIMP	1.1	1	Wild-type	Methylated	Mesenchymal	78.7	Unspecified Radiation	Female	0.9957047490931333	Mesenchymal
+TCGA.14.1401	GBM	Primary	Proneural	NON G-CIMP	3.8	1	NA	Methylated	Proneural	54.5	Unspecified Radiation	Male	0.21348194147688535	Proneural
+TCGA.14.1402	GBM	Primary	Classical	NON G-CIMP	32	1	NA	Methylated	Classical	58.6	Standard Radiation, TMZ Chemo	Female	0.04021823595062746	Classical
+TCGA.14.1451	GBM	Primary	Proneural	NON G-CIMP	23.1	1	Wild-type	Unmethylated	Proneural	39.4	TMZ Chemoradiation, TMZ Chemo	Male	0.0016575084817285744	Proneural
+TCGA.14.1452	GBM	Primary	Classical	NON G-CIMP	7.1	1	NA	Methylated	Mesenchymal	60.5	TMZ Chemoradiation, TMZ Chemo	Male	0.051618735736665255	Classical
+TCGA.14.1453	GBM	Primary	Classical	NON G-CIMP	1.1	1	Wild-type	Unmethylated	Classical	69.3	Unspecified Radiation	Male	0.5411445656754191	Classical
+TCGA.14.1454	GBM	Primary	Proneural	NON G-CIMP	30.2	1	NA	Unmethylated	Proneural	54.5	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Proneural
+TCGA.14.1455	GBM	Primary	Proneural	NON G-CIMP	0.9	1	Wild-type	Methylated	Proneural	61.8	Alkylating Chemo	Male	0.9373125281212499	Proneural
+TCGA.14.1456	GBM	Primary	Proneural	G-CIMP	41	0	Mutant	Methylated	Proneural	23.9	Standard Radiation	Male	0.7601180287930615	Proneural
+TCGA.14.1458	GBM	Primary	Proneural	G-CIMP	6.7	1	Mutant	Methylated	Proneural	54.5	TMZ Chemoradiation, TMZ Chemo	Male	0.19326134579822724	Proneural
+TCGA.14.1459	GBM	Primary	Mesenchymal	NON G-CIMP	12.4	1	NA	Methylated	Neural	63.6	TMZ Chemoradiation, TMZ Chemo	Female	0.020851079575574312	Mesenchymal
+TCGA.14.1794	GBM	Primary	Proneural	NON G-CIMP	1	1	Wild-type	Unmethylated	Proneural	59.2	Nonstandard Radiation	Male	0.052304738529246844	Proneural
+TCGA.14.1795	GBM	Primary	Mesenchymal	NON G-CIMP	2	1	Wild-type	Methylated	Proneural	66.7	Alkylating Chemo	Male	0.00208635270859477	Mesenchymal
+TCGA.14.1821	GBM	Primary	Proneural	G-CIMP	17.8	1	Mutant	Methylated	Proneural	31	TMZ Chemoradiation, TMZ Chemo	Male	0.9994001099840015	Proneural
+TCGA.14.1823	GBM	Primary	Mesenchymal	NON G-CIMP	17.9	1	Wild-type	Methylated	Mesenchymal	58.5	TMZ Chemoradiation, TMZ Chemo	Female	0.7049210687370425	Mesenchymal
+TCGA.14.1825	GBM	Primary	Proneural	NON G-CIMP	7.6	1	Wild-type	Unmethylated	Proneural	70.3	Standard Radiation	Male	0.9998000299960005	Proneural
+TCGA.14.1827	GBM	Primary	Classical	NON G-CIMP	5.9	1	Wild-type	Methylated	Neural	51.5	Alkylating Chemo	Male	0.4748656621189196	Classical
+TCGA.14.1829	GBM	Primary	Mesenchymal	NON G-CIMP	7.2	0	Wild-type	Unmethylated	Neural	57.3	TMZ Chemoradiation, TMZ Chemo	Male	0.23706868389253516	Mesenchymal
+TCGA.14.2554	GBM	Primary	Classical	NON G-CIMP	17.5	1	Wild-type	Unmethylated	Neural	52.3	Nonstandard Radiation	Female	0.27613197084451174	Classical
+TCGA.14.2555	GBM	Primary	Classical	NON G-CIMP	8	0	NA	Methylated	Neural	44.5	TMZ Chemoradiation, TMZ Chemo	Female	0.031035062677113673	Mesenchymal
+TCGA.14.3476	GBM	Primary	Proneural	NON G-CIMP	0.4	1	Wild-type	Unmethylated	Neural	74.4	Unspecified Radiation	NA	0.14907018447240378	Proneural
+TCGA.14.3477	GBM	Primary	Proneural	NON G-CIMP	3.8	0	Wild-type	Unmethylated	Proneural	38.5	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Proneural
+TCGA.14.4157	GBM	Primary	Proneural	G-CIMP	3.4	0	Mutant	Methylated	Proneural	40.6	TMZ Chemoradiation, TMZ Chemo	Male	0.9998000299960005	Proneural
+TCGA.15.0742	GBM	Primary	Classical	NON G-CIMP	13.8	1	Wild-type	NA	Classical	65.8	Nonstandard Radiation, TMZ Chemo	Male	0.987602469630049	Classical
+TCGA.15.1444	GBM	Primary	Proneural	NON G-CIMP	50.5	1	Mutant	Methylated	Proneural	NA	Unspecified Radiation	Male	0.5150547039086711	Proneural
+TCGA.15.1446	GBM	Primary	Classical	NON G-CIMP	19.1	0	Wild-type	Unmethylated	Classical	55.7	TMZ Chemoradiation, TMZ Chemo	Male	0.29098358037408945	Classical
+TCGA.15.1447	GBM	Primary	Proneural	NON G-CIMP	53.2	0	NA	Methylated	Proneural	36.5	TMZ Chemoradiation, TMZ Chemo	Female	0.0416019791881426	Proneural
+TCGA.15.1449	GBM	Primary	Proneural	NON G-CIMP	13.3	1	NA	Methylated	Proneural	65.2	TMZ Chemoradiation, TMZ Chemo	Male	0.035153398968672006	Proneural
+TCGA.16.0846	GBM	Primary	Proneural	NON G-CIMP	3.9	1	Wild-type	Methylated	Proneural	85.2	Unspecified Radiation	Male	0.47310537419410764	Proneural
+TCGA.16.0848	GBM	Primary	Proneural	NON G-CIMP	17.6	1	NA	Methylated	Proneural	57.1	Standard Radiation	Male	0.3187624943135124	Proneural
+TCGA.16.0849	GBM	Primary	Proneural	G-CIMP	26.1	0	Mutant	Methylated	Proneural	54.6	Standard Radiation	Male	0.8230883241042958	Proneural
+TCGA.16.0850	GBM	Primary	Proneural	G-CIMP	16.4	1	Mutant	Unmethylated	Proneural	52.8	Standard Radiation	Female	0.9998000299960005	Proneural
+TCGA.16.0861	GBM	Primary	Classical	NON G-CIMP	4.3	0	Wild-type	Unmethylated	Classical	65.1	Standard Radiation	Male	0.29150002707958356	Classical
+TCGA.16.1045	GBM	Primary	Mesenchymal	NON G-CIMP	29	1	Wild-type	Methylated	Mesenchymal	49.8	Standard Radiation	Female	0.12117872304360396	Mesenchymal
+TCGA.16.1047	GBM	Primary	Classical	NON G-CIMP	4.6	1	NA	Unmethylated	Classical	66.5	Unspecified Radiation	Female	0.9724055091741095	Classical
+TCGA.16.1048	GBM	NA	Classical	NON G-CIMP	NA	NA	NA	NA	Classical	NA	NA	NA	0.3864899581434715	Classical
+TCGA.16.1055	GBM	Primary	Classical	NON G-CIMP	10.3	1	NA	Unmethylated	Classical	48.8	Standard Radiation	Male	0.12925940682604067	Classical
+TCGA.16.1056	GBM	Primary	Classical	NON G-CIMP	14	1	NA	Unmethylated	Classical	55.6	Standard Radiation	Male	0.9641890325515995	Classical
+TCGA.16.1060	GBM	Primary	Mesenchymal	NON G-CIMP	9.1	1	NA	Unmethylated	Mesenchymal	70.7	Nonstandard Radiation	Female	0.3841231715244637	Mesenchymal
+TCGA.16.1062	GBM	Primary	Classical	NON G-CIMP	21.2	1	NA	Methylated	Classical	57.9	Standard Radiation	Female	0.5973207798708178	Classical
+TCGA.16.1063	GBM	Primary	Classical	NON G-CIMP	14	1	NA	Unmethylated	Neural	72	Standard Radiation	Male	0.9251625582367269	Classical
+TCGA.16.1460	GBM	Primary	Proneural	G-CIMP	6.4	0	Mutant	Methylated	Proneural	36.2	Unspecified Radiation	Female	0.7444026320295674	Proneural
+TCGA.19.0955	GBM	Primary	Classical	NON G-CIMP	11.8	0	NA	Methylated	Classical	71.1	TMZ Chemoradiation, TMZ Chemo	Male	0.10577884317357666	Classical
+TCGA.19.0957	GBM	Primary	Proneural	NON G-CIMP	21.9	1	Wild-type	Unmethylated	Proneural	48.5	TMZ Chemoradiation, TMZ Chemo	Female	0.6283452246716135	Proneural
+TCGA.19.0960	GBM	Primary	Proneural	NON G-CIMP	8.6	0	NA	Methylated	Proneural	83.1	TMZ Chemoradiation, TMZ Chemo	Female	0.9729054091891081	Proneural
+TCGA.19.0962	GBM	Primary	Classical	NON G-CIMP	0.7	1	NA	Methylated	Mesenchymal	77.7	Unspecified Radiation	Female	0.1424841417468091	Classical
+TCGA.19.0963	GBM	Primary	Proneural	NON G-CIMP	14.3	1	NA	Unmethylated	Neural	61.1	TMZ Chemoradiation, TMZ Chemo	Male	0.3758231016214445	Proneural
+TCGA.19.0964	GBM	Primary	Classical	NON G-CIMP	3.4	0	NA	Methylated	Classical	70.6	TMZ Chemoradiation, TMZ Chemo	Male	0.999000189972004	Classical
+TCGA.19.1385	GBM	Primary	Mesenchymal	NON G-CIMP	10.8	1	Wild-type	Methylated	Mesenchymal	69.7	TMZ Chemoradiation, TMZ Chemo	Male	0.5060987751839756	Mesenchymal
+TCGA.19.1386	GBM	Primary	Classical	NON G-CIMP	9.1	1	Wild-type	Unmethylated	Classical	51.1	TMZ Chemoradiation, TMZ Chemo	Male	0.9998000299960005	Classical
+TCGA.19.1387	GBM	Primary	Proneural	NON G-CIMP	6	0	Wild-type	Methylated	Proneural	81.8	TMZ Chemoradiation, TMZ Chemo	Male	0.3909052150479377	Proneural
+TCGA.19.1388	GBM	Primary	Classical	NON G-CIMP	12.9	1	Wild-type	Methylated	Mesenchymal	58.5	TMZ Chemoradiation, TMZ Chemo	Male	0.8381290858015492	Classical
+TCGA.19.1389	GBM	Primary	Mesenchymal	NON G-CIMP	4.6	1	Wild-type	Unmethylated	Mesenchymal	51.1	TMZ Chemoradiation, TMZ Chemo	Male	0.7454017721915435	Mesenchymal
+TCGA.19.1390	GBM	Primary	Proneural	NON G-CIMP	25.4	1	Wild-type	Methylated	Proneural	63.1	Unspecified Radiation	Female	0.9998000299960005	Proneural
+TCGA.19.1392	GBM	Primary	Proneural	NON G-CIMP	3.6	1	NA	Methylated	Proneural	72.8	Unspecified Radiation	Female	0.5151600328418318	Proneural
+TCGA.19.1786	GBM	Primary	Classical	NON G-CIMP	7.2	0	Wild-type	Unmethylated	Classical	64.5	Standard Radiation	Female	0.9988003899340092	Classical
+TCGA.19.1787	GBM	Primary	Mesenchymal	NON G-CIMP	12.7	1	NA	Methylated	Mesenchymal	49	TMZ Chemoradiation, TMZ Chemo	Male	0.003267666434036506	Classical
+TCGA.19.1788	GBM	Primary	Classical	G-CIMP	3.7	1	Mutant	Methylated	Proneural	39.1	TMZ Chemoradiation, TMZ Chemo	Male	3.998000359948671e-4	Proneural
+TCGA.19.1789	GBM	Primary	Classical	NON G-CIMP	3.2	1	Wild-type	Methylated	Classical	69.2	Standard Radiation, TMZ Chemo	Female	0.9998000299960005	Classical
+TCGA.19.1790	GBM	Primary	Mesenchymal	NON G-CIMP	5.1	1	Wild-type	Unmethylated	Mesenchymal	56.5	TMZ Chemoradiation, TMZ Chemo	Male	0.998600469920011	Mesenchymal
+TCGA.19.1791	GBM	Primary	Classical	NON G-CIMP	0.1	0	Wild-type	Unmethylated	Neural	82.3	Unspecified Radiation	Female	0.9866090183302435	Classical
+TCGA.19.2619	GBM	Primary	Classical	NON G-CIMP	9.7	0	Wild-type	Methylated	Classical	55.2	TMZ Chemoradiation, TMZ Chemo	Female	0.9623717760210784	Classical
+TCGA.19.2620	GBM	Primary	Classical	NON G-CIMP	4.9	1	Wild-type	Methylated	Neural	70.3	TMZ Chemoradiation, TMZ Chemo	Male	0.7839429935618577	Classical
+TCGA.19.2621	GBM	Primary	Classical	NON G-CIMP	1.1	1	Wild-type	Methylated	Classical	83.3	Unspecified Radiation	Male	0.9998000299960005	Classical
+TCGA.19.2623	GBM	Primary	Mesenchymal	NON G-CIMP	7.5	0	Wild-type	Methylated	Mesenchymal	65.3	TMZ Chemoradiation, TMZ Chemo	Male	0.09239159075793228	Mesenchymal
+TCGA.19.2624	GBM	Primary	Proneural	NON G-CIMP	0.2	1	Wild-type	Unmethylated	Proneural	51.7	Unspecified Radiation	Male	0.11406577570420169	Proneural
+TCGA.19.2625	GBM	Primary	Classical	NON G-CIMP	4.1	1	Wild-type	Unmethylated	Classical	76.5	Unspecified Radiation	Female	0.34932993052059663	Classical
+TCGA.19.2629	GBM	Primary	Proneural	G-CIMP	24.2	1	Mutant	Unmethylated	Proneural	60.9	TMZ Chemoradiation, TMZ Chemo	Male	0.9991002699550059	Proneural
+TCGA.19.2631	GBM	Primary	Classical	NON G-CIMP	7	1	Wild-type	Methylated	Classical	74.5	Standard Radiation	Female	0.9992002299620047	Classical
+TCGA.19.4068	GBM	Primary	Classical	NON G-CIMP	4.5	0	Wild-type	Unmethylated	Classical	68.3	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Classical
+TCGA.19.5947	GBM	Primary	Mesenchymal	NON G-CIMP	6.6	1	Wild-type	Unmethylated	Mesenchymal	47.1	Nonstandard Radiation	Female	0.9945010898370212	Mesenchymal
+TCGA.19.5950	GBM	Primary	Classical	NON G-CIMP	17.2	1	Wild-type	Methylated	Classical	52.7	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Classical
+TCGA.19.5951	GBM	Primary	Classical	NON G-CIMP	8	1	Wild-type	Unmethylated	Classical	76.7	TMZ Chemoradiation, TMZ Chemo	Female	0.9987004299270101	Classical
+TCGA.19.5952	GBM	Primary	Classical	NON G-CIMP	18.9	1	Wild-type	Unmethylated	Classical	62.5	Nonstandard Radiation	Male	8.997300449936282e-4	Classical
+TCGA.19.5954	GBM	Primary	Classical	NON G-CIMP	12.1	1	Wild-type	Methylated	Classical	72.2	TMZ Chemoradiation, TMZ Chemo	Female	0.052720635345724506	Classical
+TCGA.19.5955	GBM	Primary	Mesenchymal	NON G-CIMP	1.8	1	Wild-type	Methylated	Mesenchymal	83.6	Unspecified Radiation	Male	0.45871541233037966	Mesenchymal
+TCGA.19.5956	GBM	Primary	Proneural	NON G-CIMP	22.5	1	NA	Unmethylated	Proneural	53.6	TMZ Chemoradiation, TMZ Chemo	Female	0.9577084487331687	Proneural
+TCGA.19.5958	GBM	Primary	Classical	NON G-CIMP	14.1	1	Wild-type	Unmethylated	Classical	56	TMZ Chemoradiation, TMZ Chemo	Male	0.9968011897940292	Classical
+TCGA.19.5959	GBM	Primary	Classical	NON G-CIMP	16.8	1	Wild-type	Methylated	Classical	77.9	TMZ Chemoradiation, TMZ Chemo	Female	0.6404118112336349	Classical
+TCGA.19.5960	GBM	Primary	Classical	NON G-CIMP	15	1	Wild-type	Unmethylated	Proneural	56.5	TMZ Chemoradiation, TMZ Chemo	Male	0.3749566549194501	Classical
+TCGA.26.1438	GBM	Primary	Mesenchymal	NON G-CIMP	10	0	NA	Unmethylated	Mesenchymal	36.9	TMZ Chemoradiation, TMZ Chemo	Male	0.29805688564230237	Mesenchymal
+TCGA.26.1439	GBM	Primary	Classical	NON G-CIMP	13.9	1	Wild-type	Unmethylated	Classical	63.8	TMZ Chemoradiation, TMZ Chemo	Male	0.08541523609862786	Classical
+TCGA.26.1440	GBM	Primary	Classical	NON G-CIMP	9.7	0	NA	Unmethylated	Classical	48.4	TMZ Chemoradiation, TMZ Chemo	Male	0.8097499319161171	Classical
+TCGA.26.1442	GBM	Primary	Proneural	G-CIMP	31.3	0	Mutant	Methylated	Proneural	43.7	TMZ Chemoradiation, TMZ Chemo	Male	0.13954958868676645	Proneural
+TCGA.26.1443	GBM	Primary	Classical	NON G-CIMP	7.1	0	NA	Methylated	Classical	60.2	TMZ Chemoradiation, TMZ Chemo	Female	0.37906866247681775	Classical
+TCGA.26.1799	GBM	Primary	Classical	NON G-CIMP	9.4	1	Wild-type	Unmethylated	Neural	68.9	Standard Radiation, TMZ Chemo	Male	0.2894359899076584	Classical
+TCGA.26.5132	GBM	Primary	Classical	NON G-CIMP	9.4	0	Wild-type	Methylated	Classical	74.5	TMZ Chemoradiation, TMZ Chemo	Male	0.8041335652456149	Classical
+TCGA.26.5133	GBM	Primary	Proneural	G-CIMP	14.9	0	Wild-type	Unmethylated	Proneural	59	TMZ Chemoradiation, TMZ Chemo	Male	0.9344901326285726	Proneural
+TCGA.26.5134	GBM	Primary	Proneural	NON G-CIMP	5.5	0	Wild-type	Unmethylated	Proneural	74.2	Standard Radiation	Male	0.920823716048553	Proneural
+TCGA.26.5135	GBM	Primary	Proneural	NON G-CIMP	8.9	1	Wild-type	Methylated	Proneural	72.5	Unspecified Radiation	Female	0.4727022448240125	Proneural
+TCGA.26.5136	GBM	Primary	Mesenchymal	NON G-CIMP	19	1	Wild-type	Methylated	Mesenchymal	78	Unspecified Radiation	Female	0.6253749187624978	Mesenchymal
+TCGA.26.5139	GBM	Primary	Mesenchymal	NON G-CIMP	1.6	0	Wild-type	Unmethylated	Mesenchymal	65.1	Unspecified Radiation	Female	0.8418316252566324	Mesenchymal
+TCGA.27.1830	GBM	Primary	Mesenchymal	NON G-CIMP	5.1	1	Wild-type	Methylated	Proneural	57.9	Standard Radiation, TMZ Chemo	Male	0.008354678980657051	Mesenchymal
+TCGA.27.1831	GBM	Primary	Classical	NON G-CIMP	16.6	1	Wild-type	Unmethylated	Neural	66.9	TMZ Chemoradiation, TMZ Chemo	Male	0.47350548416811156	Classical
+TCGA.27.1832	GBM	Primary	Mesenchymal	NON G-CIMP	9.9	1	Wild-type	Unmethylated	Mesenchymal	59.4	Nonstandard Radiation, TMZ Chemo	Female	0.7205837960349547	Mesenchymal
+TCGA.27.1833	GBM	Primary	Classical	NON G-CIMP	24.2	1	Wild-type	Unmethylated	Classical	67.3	Standard Radiation, TMZ Chemo	Female	0.9998000299960005	Classical
+TCGA.27.1834	GBM	Primary	Proneural	NON G-CIMP	40.5	1	Wild-type	Methylated	Neural	56.3	TMZ Chemoradiation, TMZ Chemo	Male	0.2749027167076316	Proneural
+TCGA.27.1835	GBM	Primary	Classical	NON G-CIMP	21.3	1	Wild-type	Methylated	Classical	53.2	TMZ Chemoradiation, TMZ Chemo	Female	0.9998000299960005	Classical
+TCGA.27.1836	GBM	Primary	Proneural	NON G-CIMP	30.1	1	Wild-type	Methylated	Proneural	33	TMZ Chemoradiation, TMZ Chemo	Female	0.016093561126839028	Proneural
+TCGA.27.1837	GBM	Primary	Classical	NON G-CIMP	14	1	Wild-type	Methylated	Classical	36.6	Standard Radiation, TMZ Chemo	Male	0.12300153846229184	Classical
+TCGA.27.1838	GBM	Primary	Classical	NON G-CIMP	11.5	1	Wild-type	Unmethylated	Mesenchymal	59.4	Standard Radiation, TMZ Chemo	Female	0.17431390547576617	Classical
+TCGA.27.2518	GBM	Primary	Classical	NON G-CIMP	24.8	1	Wild-type	Unmethylated	Neural	52.4	TMZ Chemoradiation, TMZ Chemo	Male	0.6803639204122779	Classical
+TCGA.27.2519	GBM	Primary	Mesenchymal	NON G-CIMP	18.1	1	Wild-type	Unmethylated	Mesenchymal	48.5	TMZ Chemoradiation, TMZ Chemo	Male	0.003503999165126842	Proneural
+TCGA.27.2521	GBM	Primary	Proneural	G-CIMP	10.4	0	Mutant	Methylated	Proneural	34.7	Standard Radiation, TMZ Chemo	Male	0.991601669750033	Proneural
+TCGA.27.2523	GBM	Primary	Classical	NON G-CIMP	16.1	1	Wild-type	Methylated	Classical	63.1	Standard Radiation, TMZ Chemo	Male	0.6855814568528154	Classical
+TCGA.27.2524	GBM	Primary	Mesenchymal	NON G-CIMP	7.6	1	Wild-type	Unmethylated	Mesenchymal	56.3	Standard Radiation, TMZ Chemo	Male	0.8909077495410147	Mesenchymal
+TCGA.27.2526	GBM	Primary	Classical	NON G-CIMP	2.9	1	Wild-type	Unmethylated	Neural	79.3	Unspecified Radiation	Female	0.9996000699900011	Classical
+TCGA.27.2527	GBM	Primary	Mesenchymal	NON G-CIMP	14.4	1	Wild-type	Methylated	Mesenchymal	81.1	Nonstandard Radiation	Male	0.6995071515746137	Mesenchymal
+TCGA.27.2528	GBM	Primary	Classical	NON G-CIMP	15.8	1	Wild-type	Methylated	Classical	62.6	TMZ Chemoradiation, TMZ Chemo	Male	0.8699519409122982	Classical
+TCGA.28.1745	GBM	Primary	Mesenchymal	NON G-CIMP	11.3	0	Wild-type	Unmethylated	Mesenchymal	76.2	TMZ Chemoradiation, TMZ Chemo	NA	0.18611695474788054	Mesenchymal
+TCGA.28.1746	GBM	Primary	Proneural	NON G-CIMP	0.2	0	Wild-type	Methylated	Proneural	77.5	Unspecified Radiation	Female	0.8318839248961816	Proneural
+TCGA.28.1747	GBM	Primary	Classical	NON G-CIMP	2.5	1	Wild-type	Methylated	Classical	44.6	Nonstandard Radiation, TMZ Chemo	Male	0.3712257511375154	Classical
+TCGA.28.1749	GBM	Primary	Classical	NON G-CIMP	9.2	0	Wild-type	Unmethylated	Classical	73.3	TMZ Chemoradiation, TMZ Chemo	Male	0.9615076888471535	Classical
+TCGA.28.1750	GBM	Primary	Mesenchymal	NON G-CIMP	8.3	0	Wild-type	Unmethylated	Mesenchymal	40.6	TMZ Chemoradiation, TMZ Chemo	Female	0.2472780419188357	Mesenchymal
+TCGA.28.1751	GBM	Primary	Mesenchymal	NON G-CIMP	7.6	0	Wild-type	Unmethylated	Mesenchymal	61	TMZ Chemoradiation, TMZ Chemo	Female	0.08848230265464609	Mesenchymal
+TCGA.28.1752	GBM	Primary	Classical	NON G-CIMP	8.5	0	Wild-type	Methylated	Neural	42.6	TMZ Chemoradiation, TMZ Chemo	Female	0.1457621861051571	Classical
+TCGA.28.1753	GBM	Primary	Mesenchymal	NON G-CIMP	1.2	0	Wild-type	Unmethylated	Mesenchymal	53	Nonstandard Radiation	Male	0.006546790576416822	Mesenchymal
+TCGA.28.1755	GBM	Primary	Classical	NON G-CIMP	1.6	1	Wild-type	Unmethylated	Classical	52.7	TMZ Chemoradiation, TMZ Chemo	Female	0.8353674181626936	Classical
+TCGA.28.1756	GBM	Primary	Proneural	G-CIMP	2.8	0	NA	Methylated	Proneural	78.4	TMZ Chemoradiation, TMZ Chemo	Male	0.9790083085482069	Proneural
+TCGA.28.1757	GBM	Primary	Classical	NON G-CIMP	0.1	0	Wild-type	Methylated	Classical	71.7	Unspecified Therapy	Male	0.9734053092041056	Classical
+TCGA.28.1760	GBM	Primary	Mesenchymal	NON G-CIMP	4.7	0	Wild-type	Unmethylated	Classical	48.6	Standard Radiation, TMZ Chemo	Male	4.998500249965835e-4	Mesenchymal
+TCGA.28.2501	GBM	NA	Mesenchymal	NON G-CIMP	NA	NA	NA	NA	Mesenchymal	NA	NA	NA	0.3930321096477491	Mesenchymal
+TCGA.28.2502	GBM	Primary	Mesenchymal	NON G-CIMP	0.7	0	Wild-type	Unmethylated	Mesenchymal	65.2	Nonstandard Radiation	Male	0.20412557284417537	Mesenchymal
+TCGA.28.2506	GBM	Primary	Classical	NON G-CIMP	6.7	0	Wild-type	Methylated	Neural	63.8	TMZ Chemoradiation, TMZ Chemo	Female	0.93871224816324494	Classical
+TCGA.28.2509	GBM	Primary	Mesenchymal	NON G-CIMP	4.8	0	Wild-type	Methylated	Mesenchymal	77.3	Standard Radiation, TMZ Chemo	Female	0.3198374093197618	Mesenchymal
+TCGA.28.2510	GBM	NA	Proneural	NON G-CIMP	NA	NA	NA	NA	Proneural	NA	NA	NA	0.08358359244567497	Proneural
+TCGA.28.2513	GBM	Primary	Mesenchymal	NON G-CIMP	7.3	0	Wild-type	Unmethylated	Mesenchymal	69.6	TMZ Chemoradiation, TMZ Chemo	Female	0.46640671399313377	Mesenchymal
+TCGA.28.2514	GBM	Primary	Classical	NON G-CIMP	5.3	0	Wild-type	Unmethylated	Classical	45.8	Standard Radiation, TMZ Chemo	Male	0.2148185341449857	Classical
+TCGA.28.5204	GBM	Primary	Proneural	NON G-CIMP	14.9	1	Wild-type	Unmethylated	Neural	72.5	TMZ Chemoradiation, TMZ Chemo	Male	0.9444007204119104	Proneural
+TCGA.28.5207	GBM	Primary	Mesenchymal	NON G-CIMP	11.3	1	Wild-type	Unmethylated	Mesenchymal	71.1	Nonstandard Radiation, TMZ Chemo	Male	0.9058469315552193	Mesenchymal
+TCGA.28.5208	GBM	Primary	Mesenchymal	NON G-CIMP	17.9	1	Wild-type	Methylated	Mesenchymal	52.2	TMZ Chemoradiation, TMZ Chemo	Male	0.29334132880082686	Mesenchymal
+TCGA.28.5209	GBM	Primary	Mesenchymal	NON G-CIMP	2.5	0	Wild-type	Methylated	Mesenchymal	66.7	Nonstandard Radiation, TMZ Chemo	Female	0.8607278458235568	Mesenchymal
+TCGA.28.5213	GBM	Primary	Mesenchymal	NON G-CIMP	31.3	0	Wild-type	Unmethylated	Mesenchymal	72.5	Standard Radiation, TMZ Chemo	Male	0.29154168874683334	Mesenchymal
+TCGA.28.5214	GBM	Primary	Mesenchymal	NON G-CIMP	23.4	1	Wild-type	Unmethylated	Mesenchymal	53.4	Nonstandard Radiation, TMZ Chemo	Male	0.44241151327322975	Mesenchymal
+TCGA.28.5215	GBM	Primary	Mesenchymal	NON G-CIMP	11	1	Wild-type	Methylated	Mesenchymal	62.1	Nonstandard Radiation, TMZ Chemo	Female	0.7177564415341285	Mesenchymal
+TCGA.28.5216	GBM	Primary	Mesenchymal	NON G-CIMP	13.6	0	Wild-type	Unmethylated	Mesenchymal	52.7	TMZ Chemoradiation, TMZ Chemo	Male	0.4983012947580351	Mesenchymal
+TCGA.28.5218	GBM	Primary	Mesenchymal	NON G-CIMP	5.2	1	Wild-type	Unmethylated	Mesenchymal	63.2	Standard Radiation, TMZ Chemo	Male	0.8965206868974134	Mesenchymal
+TCGA.28.5219	GBM	Primary	Classical	NON G-CIMP	22.7	0	Wild-type	Methylated	Classical	47.2	Nonstandard Radiation, TMZ Chemo	Female	0.3733253312005071	Classical
+TCGA.28.5220	GBM	Primary	Classical	NON G-CIMP	10.5	0	Wild-type	Unmethylated	Classical	67.4	Standard Radiation, TMZ Chemo	Male	0.5937812378146248	Classical
+TCGA.28.6450	GBM	Primary	Classical	NON G-CIMP	5.4	1	Wild-type	Unmethylated	Classical	60.7	TMZ Chemoradiation, TMZ Chemo	Male	0.9962007498880151	Classical
+TCGA.32.1970	GBM	Primary	Classical	NON G-CIMP	15.4	1	Wild-type	Unmethylated	Classical	59.2	TMZ Chemoradiation, TMZ Chemo	Male	0.7393521221820428	Classical
+TCGA.32.1973	GBM	Primary	Proneural	NON G-CIMP	21.1	1	NA	Methylated	Proneural	21.2	TMZ Chemoradiation, TMZ Chemo	Male	0.20755400712303582	Proneural
+TCGA.32.1976	GBM	Primary	Proneural	NON G-CIMP	0.5	1	Wild-type	Methylated	Proneural	65.2	Unspecified Radiation	Male	0.991309868113278	Proneural
+TCGA.32.1977	GBM	Primary	Mesenchymal	NON G-CIMP	0.1	0	Wild-type	Methylated	Classical	63.5	Unspecified Therapy	Female	0	Classical
+TCGA.32.1978	GBM	Primary	Classical	NON G-CIMP	15.8	1	NA	Unmethylated	Classical	57.6	Unspecified Therapy	Male	0.9997000499930009	Classical
+TCGA.32.1979	GBM	Primary	Classical	NON G-CIMP	19.5	1	Wild-type	Methylated	Classical	69.1	Unspecified Therapy	Female	0.11064269035550202	Classical
+TCGA.32.1980	GBM	Primary	Proneural	NON G-CIMP	1.2	1	Wild-type	Unmethylated	Neural	72.5	Unspecified Radiation	Male	0.06058820175376746	Proneural
+TCGA.32.1982	GBM	Primary	Classical	NON G-CIMP	4.7	1	Wild-type	Methylated	Neural	76	Alkylating Chemo	Female	0.6512575919690305	Classical
+TCGA.32.1986	GBM	Primary	Mesenchymal	NON G-CIMP	12.7	1	Wild-type	Unmethylated	Mesenchymal	68.6	Standard Radiation, TMZ Chemo	Male	0.049890021496800385	Mesenchymal
+TCGA.32.1987	GBM	Primary	Mesenchymal	NON G-CIMP	14.9	1	NA	Unmethylated	Mesenchymal	49.5	TMZ Chemoradiation, TMZ Chemo	Female	0.3000853399311604	Mesenchymal
+TCGA.32.1991	GBM	Primary	Classical	NON G-CIMP	16.9	1	Wild-type	Unmethylated	Classical	60.3	TMZ Chemoradiation, TMZ Chemo	Male	0.5460873370717119	Classical
+TCGA.32.2491	GBM	Primary	Mesenchymal	NON G-CIMP	12.2	1	Wild-type	Unmethylated	Mesenchymal	63.3	TMZ Chemoradiation, TMZ Chemo	Male	0.016395080819885274	Mesenchymal
+TCGA.32.2494	GBM	Primary	Mesenchymal	NON G-CIMP	20.8	1	Wild-type	Methylated	Mesenchymal	58	TMZ Chemoradiation, TMZ Chemo	Female	0.7489384048296507	Mesenchymal
+TCGA.32.2495	GBM	Primary	Classical	NON G-CIMP	15	1	Wild-type	Unmethylated	Classical	59.9	TMZ Chemoradiation, TMZ Chemo	Female	0.9369188868534405	Classical
+TCGA.32.2615	GBM	Primary	Mesenchymal	NON G-CIMP	15.9	1	Wild-type	Unmethylated	Mesenchymal	62.7	Nonstandard Radiation, TMZ Chemo	Male	0.042510557463401814	Mesenchymal
+TCGA.32.2616	GBM	Primary	Classical	NON G-CIMP	7.4	1	NA	Methylated	Mesenchymal	48.7	TMZ Chemoradiation, TMZ Chemo	Female	0.598202953427285	Classical
+TCGA.32.2632	GBM	Primary	Classical	NON G-CIMP	8.8	1	Wild-type	Unmethylated	Mesenchymal	80.2	Unspecified Therapy	Male	0.7780527916611394	Classical
+TCGA.32.2634	GBM	Primary	Proneural	NON G-CIMP	22.8	0	Wild-type	Methylated	Proneural	82	TMZ Chemoradiation, TMZ Chemo	Male	0.9046575594415357	Proneural
+TCGA.32.2638	GBM	Primary	Classical	NON G-CIMP	25.2	1	Wild-type	Methylated	Classical	67.5	TMZ Chemoradiation, TMZ Chemo	Male	0.0972805429186108	Classical
+TCGA.32.4208	GBM	Primary	Proneural	G-CIMP	21.1	0	Mutant	Methylated	Proneural	25.2	TMZ Chemoradiation, TMZ Chemo	Male	0.06678899153380392	Proneural
+TCGA.32.4209	GBM	Primary	Mesenchymal	NON G-CIMP	20.3	1	Wild-type	Methylated	Mesenchymal	40.8	TMZ Chemoradiation, TMZ Chemo	NA	0.0661626668050129	Mesenchymal
+TCGA.32.4210	GBM	Primary	Proneural	NON G-CIMP	3.7	1	Wild-type	Unmethylated	Proneural	73.3	Unspecified Therapy	Male	0.9524346635429448	Proneural
+TCGA.32.4211	GBM	Primary	Proneural	NON G-CIMP	12.6	1	Wild-type	Unmethylated	Neural	56.8	TMZ Chemoradiation, TMZ Chemo	Male	0.08059012116986503	Proneural
+TCGA.32.4213	GBM	Primary	Mesenchymal	NON G-CIMP	19.9	0	Wild-type	Methylated	Mesenchymal	47.2	TMZ Chemoradiation, TMZ Chemo	Female	0.16165150808186868	Mesenchymal
+TCGA.32.4719	GBM	Primary	Classical	NON G-CIMP	10.8	1	Wild-type	Unmethylated	Classical	73.1	TMZ Chemoradiation, TMZ Chemo	Male	0.9846377825971031	Classical
+TCGA.32.5222	GBM	Primary	Proneural	NON G-CIMP	19.2	1	Wild-type	Methylated	Proneural	66.1	TMZ Chemoradiation, TMZ Chemo	Male	0.864627065940541	Proneural
+TCGA.41.2571	GBM	Primary	Proneural	NON G-CIMP	0.8	1	Wild-type	Unmethylated	Proneural	89.3	TMZ Chemo	Male	0.9877024496330487	Proneural
+TCGA.41.2572	GBM	Primary	Classical	NON G-CIMP	13.3	1	Wild-type	Unmethylated	Classical	67.1	TMZ Chemoradiation, TMZ Chemo	Male	0.9818036294560726	Classical
+TCGA.41.2573	GBM	Primary	Proneural	NON G-CIMP	8.9	0	Wild-type	Methylated	Proneural	60	TMZ Chemoradiation, TMZ Chemo	Male	0.9720111080582774	Proneural
+TCGA.41.2575	GBM	Primary	Proneural	NON G-CIMP	9.5	1	Wild-type	Unmethylated	Proneural	75.5	TMZ Chemoradiation, TMZ Chemo	Male	0.977211237980291	Proneural
+TCGA.41.3392	GBM	Primary	Classical	NON G-CIMP	1	1	Wild-type	Unmethylated	Neural	88.6	Unspecified Radiation	Male	0.8376241667903994	Classical
+TCGA.41.3393	GBM	Primary	Mesenchymal	NON G-CIMP	4.4	1	Wild-type	Unmethylated	Mesenchymal	81.9	TMZ Chemoradiation, TMZ Chemo	Female	0.11710564769940397	Mesenchymal
+TCGA.41.3915	GBM	Primary	Mesenchymal	NON G-CIMP	11.8	1	Wild-type	Methylated	Mesenchymal	49	TMZ Chemoradiation, TMZ Chemo	Male	0.027554888746701766	Mesenchymal
+TCGA.41.4097	GBM	Primary	Mesenchymal	NON G-CIMP	0.2	1	Wild-type	Unmethylated	Mesenchymal	63.3	Unspecified Radiation	Female	0.0013963607138935694	Mesenchymal
+TCGA.41.5651	GBM	Primary	Proneural	NON G-CIMP	15.1	1	Wild-type	Methylated	Proneural	59.4	TMZ Chemoradiation, TMZ Chemo	Female	0.998300329951006	Proneural
+TCGA.76.4925	GBM	Primary	Proneural	NON G-CIMP	4.8	1	Wild-type	Methylated	Proneural	76.7	Nonstandard Radiation, TMZ Chemo	Male	0.9724721858381103	Proneural
+TCGA.76.4926	GBM	Primary	Mesenchymal	NON G-CIMP	4.5	1	Wild-type	Unmethylated	Classical	68.7	Nonstandard Radiation, TMZ Chemo	Male	0.02284615054143068	Mesenchymal
+TCGA.76.4927	GBM	Primary	Classical	NON G-CIMP	17.6	1	Wild-type	Unmethylated	Neural	58	Unspecified Therapy	Male	0.7818228776062492	Classical
+TCGA.76.4928	GBM	Primary	Classical	NON G-CIMP	3.1	1	Wild-type	Methylated	Classical	85.6	Nonstandard Radiation, TMZ Chemo	Female	0.04661011751039666	Classical
+TCGA.76.4929	GBM	Primary	Proneural	NON G-CIMP	3.6	1	Wild-type	Methylated	Neural	76.2	Unspecified Therapy	Female	0.4603162821404092	Proneural
+TCGA.76.4931	GBM	Primary	Classical	NON G-CIMP	9.2	1	Wild-type	Unmethylated	Classical	70.7	Nonstandard Radiation, TMZ Chemo	Female	0.8452663082856794	Classical
+TCGA.76.4932	GBM	Primary	Proneural	NON G-CIMP	47.9	1	Wild-type	Methylated	Proneural	50.5	Standard Radiation, TMZ Chemo	Female	0.9556263851667023	Proneural
+TCGA.76.4934	GBM	Primary	Proneural	NON G-CIMP	2.5	1	Wild-type	Methylated	Proneural	66.6	Unspecified Therapy	Female	0.8990302549587059	Proneural
+TCGA.76.4935	GBM	Primary	Proneural	NON G-CIMP	36.9	1	Wild-type	Methylated	Proneural	52.6	Standard Radiation, TMZ Chemo	Female	0.5028006548410258	Proneural
+TCGA.76.6191	GBM	Primary	Proneural	NON G-CIMP	16.7	1	Wild-type	Unmethylated	Proneural	57.3	TMZ Chemoradiation, TMZ Chemo	Male	0.7785290863974298	Proneural
+TCGA.76.6192	GBM	Primary	Proneural	NON G-CIMP	3.3	1	Wild-type	Unmethylated	Proneural	74.8	Standard Radiation, TMZ Chemo	Male	0.0677715850052831	Proneural
+TCGA.76.6193	GBM	Primary	Mesenchymal	NON G-CIMP	2.7	1	Wild-type	Unmethylated	Mesenchymal	78.7	Standard Radiation, TMZ Chemo	Male	0.2001490281928709	Mesenchymal
+TCGA.76.6282	GBM	Primary	Mesenchymal	NON G-CIMP	17.1	1	Wild-type	Unmethylated	Mesenchymal	63.9	TMZ Chemoradiation, TMZ Chemo	Male	0.023595280707905533	Mesenchymal
+TCGA.76.6285	GBM	Primary	Proneural	NON G-CIMP	8.3	1	Wild-type	Unmethylated	Proneural	64.8	TMZ Chemo	Female	0.738666699273478	Proneural
+TCGA.81.5910	GBM	Primary	Classical	NON G-CIMP	1.6	1	Wild-type	Unmethylated	Classical	64.5	Unspecified Radiation	Male	0.9394121081842418	Classical
+TCGA.87.5896	GBM	Primary	Classical	NON G-CIMP	26.3	0	Wild-type	Unmethylated	Classical	50.4	Unspecified Therapy	Female	0.9998000299960005	Classical
