@@ -29,7 +29,7 @@ nn_parameter <- expand.grid(size = c(1:3), decay = seq(0.01, 0.1, by = 0.01))
 # Create the model
 
 set.seed(1)
-nn_1 <- train(Subtype ~ ., data = exp_train, method = 'nnet', tuneGrid = nn_parameter, trControl = tr_control)
+nn_1 <- train(Subtype ~ ., data = exp_train, method = 'nnet', tuneGrid = nn_parameter, lineout = 0, trControl = tr_control)
 
 nn_t <- predict(nn_1, exp_test)
 
