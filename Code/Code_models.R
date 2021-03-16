@@ -10,7 +10,7 @@ library(caret)
 # Split the data
 
 set.seed(1)
-train_idx <- createDataPartition(exp$Subtype, p = 2/3, list = FALSE)
+train_idx <- createDataPartition(exp$Subtype, p = 0.8, list = FALSE)
 
 exp_train <- exp[train_idx, ]
 exp_test <- exp[-train_idx, ]
@@ -71,7 +71,6 @@ nb <- train(Subtype ~ ., data = exp_train, method = 'nb', trControl = tr_control
 nb_t <- predict(nb, exp_test)
 
 table_nb <- confusionMatrix(nb_t, exp_test$Subtype)
-table_nb
 
 Acc_nb <- table_nb$overall[1]
 IC_nbl <- table_nb$overall[3]
