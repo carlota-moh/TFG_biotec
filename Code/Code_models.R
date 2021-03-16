@@ -37,6 +37,8 @@ nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 0:5)
 
 svm_parameter <- data.frame(C = seq(0, 2, by = 0.01))
 
+nn_parameter <- expand.grid(size = c(1:3), decay = seq(0.01, 0.1, by = 0.01))
+
 # Build the models and use them for predicting
 
 set.seed(1)
@@ -115,27 +117,39 @@ IC_svmrl <- table_svmr$overall[3]
 IC_svmru <- table_svmr$overall[4]
 SS_svmr <- table_svmr$byClass[,c("Sensitivity","Specificity")]
 
+set.seed(1)
+nn_1 <- train(Subtype ~ ., data = exp_train, method = 'nnet', tuneGrid = nn_parameter, lineout = 0, trControl = tr_control)
+
+nn_t <- predict(nn_1, exp_test)
+
+table_nn <- confusionMatrix(nn_t, exp_test$Subtype)
+
+Acc_nn <- table_nn$overall[1]
+IC_nnl <- table_nn$overall[3]
+IC_nnu <- table_nn$overall[4]
+SS_nn <- table_nn$byClass[,c("Sensitivity","Specificity")]
+
 # Create a table to summarize the results
 
-Model_name <- c('knn', 'Random Forest', 'Naïve Bayes', 'SVMLin', 'SVMPoly', 'SVMRad')
+Model_name <- c('knn', 'Random Forest', 'Naïve Bayes', 'SVMLin', 'SVMPoly', 'SVMRad', 'Neural Net')
 
-Accuracies <- c(Acc_k, Acc_rf, Acc_nb, Acc_svm, Acc_svmp, Acc_svmr)
+Accuracies <- c(Acc_k, Acc_rf, Acc_nb, Acc_svm, Acc_svmp, Acc_svmr, Acc_nn)
 
-IC_lower <- c(IC_kl, IC_rfl, IC_nbl, IC_svml, IC_svmpl, IC_svmrl)
+IC_lower <- c(IC_kl, IC_rfl, IC_nbl, IC_svml, IC_svmpl, IC_svmrl, IC_nnl)
 
-IC_upper <- c(IC_ku, IC_rfu, IC_nbu, IC_svmu, IC_svmpu, IC_svmru)
+IC_upper <- c(IC_ku, IC_rfu, IC_nbu, IC_svmu, IC_svmpu, IC_svmru, IC_nnu)
 
-Sensitivity_CL <- c(SS_k[1,1], SS_rf[1,1], SS_nb[1,1], SS_svm[1,1], SS_svmp[1,1], SS_svmr[1,1])
+Sensitivity_CL <- c(SS_k[1,1], SS_rf[1,1], SS_nb[1,1], SS_svm[1,1], SS_svmp[1,1], SS_svmr[1,1], SS_nn[1,1])
 
-Specificity_CL <- c(SS_k[1,2], SS_rf[1,2], SS_nb[1,2], SS_svm[1,2], SS_svmp[1,2], SS_svmr[1,2])
+Specificity_CL <- c(SS_k[1,2], SS_rf[1,2], SS_nb[1,2], SS_svm[1,2], SS_svmp[1,2], SS_svmr[1,2], SS_nn[1,2])
 
-Sensitivity_MES <- c(SS_k[2,1], SS_rf[2,1], SS_nb[2,1], SS_svm[2,1], SS_svmp[2,1], SS_svmr[2,1])
+Sensitivity_MES <- c(SS_k[2,1], SS_rf[2,1], SS_nb[2,1], SS_svm[2,1], SS_svmp[2,1], SS_svmr[2,1], SS_nn[2,1])
 
-Specificity_MES <- c(SS_k[2,2], SS_rf[2,2], SS_nb[2,2], SS_svm[2,2], SS_svmp[2,2], SS_svmr[2,2])
+Specificity_MES <- c(SS_k[2,2], SS_rf[2,2], SS_nb[2,2], SS_svm[2,2], SS_svmp[2,2], SS_svmr[2,2], SS_nn[2,2])
 
-Sensitivity_PN <- c(SS_k[3,1], SS_rf[3,1], SS_nb[3,1], SS_svm[3,1], SS_svmp[3,1], SS_svmr[3,1])
+Sensitivity_PN <- c(SS_k[3,1], SS_rf[3,1], SS_nb[3,1], SS_svm[3,1], SS_svmp[3,1], SS_svmr[3,1], SS_nn[3,1])
 
-Specificity_PN <- c(SS_k[3,2], SS_rf[3,2], SS_nb[3,2], SS_svm[3,2], SS_svmp[3,2], SS_svmr[3,2])
+Specificity_PN <- c(SS_k[3,2], SS_rf[3,2], SS_nb[3,2], SS_svm[3,2], SS_svmp[3,2], SS_svmr[3,2], SS_nn[3,2])
 
 col_tags <- c('Model Name', 'Accuracies', 'IC (lower)', 'IC(Upper)', 'Sensitivity (CL)', 'Specificity (CL)', 'Sensitivity (MES)', 'Specificity (MES)', 'Sensitivity (PN)', 'Specificity (PN)')
 
