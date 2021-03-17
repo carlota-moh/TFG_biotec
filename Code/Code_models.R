@@ -1,25 +1,4 @@
-# Load the code for data pre-processing:
-
-source('Code/Common_1.R')
-
-# Install and load the caret library
-
-#install.packages(caret)
-library(caret)
-
-# Split the data
-
-set.seed(1)
-train_idx <- createDataPartition(exp$Subtype, p = 0.8, list = FALSE)
-
-exp_train <- exp[train_idx, ]
-exp_test <- exp[-train_idx, ]
-
-# Check that the proportions are kept
-
-prop.table(table(exp$Subtype))
-prop.table(table(exp_train$Subtype))
-prop.table(table(exp_test$Subtype))
+model <- function(exp_train, exp_test) {
 
 # Set the training control parameters
 
@@ -168,7 +147,7 @@ Red_1 <- '#FF0000'
 
 library(formattable)
 
-formattable(table_models, align = c('c'), 
+model <- formattable(table_models, align = c('c'), 
             list('Accuracies' = color_tile(Green_0A, Green_1A),
                  'Sensitivity_CL' = color_tile(Blue_0, Blue_1),
                  'Specificity_CL' = color_tile(Blue_0, Blue_1),
@@ -178,4 +157,5 @@ formattable(table_models, align = c('c'),
                  'Specificity_PN' = color_tile(Red_0, Red_1),
                  'Model_name' = formatter('span', style = ~ style(color = 'black', font.weight = 'bold'))))
 
+return(model)}
             
