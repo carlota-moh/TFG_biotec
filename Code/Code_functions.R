@@ -1,18 +1,20 @@
+model <- function(exp_train, exp_test) {
+
 # Set the training control parameters
 
 tr_control <- trainControl(method = 'repeatedcv', number = 10, repeats = 3, search = 'grid')
 
 # Load the parameters for the different models
 
-k <- c(1:50)
+k <- c(1:40)
 k_parameter <- data.frame(k)
 
 mtry <- c(3,4,5)
 mtry_parameter <- data.frame(mtry)
 
-nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 0:5)
+nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 1:5)
 
-svm_parameter <- data.frame(C = seq(0, 2, by = 0.01))
+svm_parameter <- data.frame(C = seq(0.01, 2, by = 0.01))
 
 nn_parameter <- expand.grid(size = c(1:3), decay = seq(0.01, 0.1, by = 0.01))
 
@@ -60,7 +62,6 @@ svm <- train(Subtype ~ ., data = exp_train, method = 'svmLinear', trControl = tr
 svm_t <- predict(svm, exp_test)
 
 table_svm <- confusionMatrix(svm_t, exp_test$Subtype)
-table_svm
 
 Acc_svm <- table_svm$overall[1]
 IC_svml <- table_svm$overall[3]
@@ -73,7 +74,6 @@ svm_p <- train(Subtype ~ ., data = exp_train, method = 'svmPoly', trControl = tr
 svm_pt <- predict(svm_p, exp_test)
 
 table_svmp <- confusionMatrix(svm_pt, exp_test$Subtype)
-table_svmp
 
 Acc_svmp <- table_svmp$overall[1]
 IC_svmpl <- table_svmp$overall[3]
@@ -86,7 +86,6 @@ svm_r <- train(Subtype ~ ., data = exp_train, method = 'svmRadial', trControl = 
 svm_rt <- predict(svm_r, exp_test)
 
 table_svmr <- confusionMatrix(svm_rt, exp_test$Subtype)
-table_svmr
 
 Acc_svmr <- table_svmr$overall[1]
 IC_svmrl <- table_svmr$overall[3]
@@ -107,7 +106,7 @@ SS_nn <- table_nn$byClass[,c("Sensitivity","Specificity")]
 
 # Create a table to summarize the results
 
-Model_name <- c('knn', 'Random Forest', 'Naïve Bayes', 'SVMLin', 'SVMPoly', 'SVMRad', 'Neural Net')
+Model_name <- c('knn', 'RandomForest', 'NaiveBayes', 'SVMLin', 'SVMPoly', 'SVMRad', 'NeuralNet')
 
 Accuracies <- c(Acc_k, Acc_rf, Acc_nb, Acc_svm, Acc_svmp, Acc_svmr, Acc_nn)
 
@@ -127,31 +126,15 @@ Sensitivity_PN <- c(SS_k[3,1], SS_rf[3,1], SS_nb[3,1], SS_svm[3,1], SS_svmp[3,1]
 
 Specificity_PN <- c(SS_k[3,2], SS_rf[3,2], SS_nb[3,2], SS_svm[3,2], SS_svmp[3,2], SS_svmr[3,2], SS_nn[3,2])
 
-col_tags <- c('Model Name', 'Accuracies', 'IC (lower)', 'IC(Upper)', 'Sensitivity (CL)', 'Specificity (CL)', 'Sensitivity (MES)', 'Specificity (MES)', 'Sensitivity (PN)', 'Specificity (PN)')
-
 table_models <- data.frame(Model_name, Accuracies, IC_lower, IC_upper, Sensitivity_CL, Specificity_CL, Sensitivity_MES, Specificity_MES, Sensitivity_PN, Specificity_PN)
 
-Green_0A <- '#DBFCD3'
-Green_1A <- '#33FF00'
+return(table_models)}
 
-Green_0 <-  '#E6FCD4'
-Green_1 <- '#88FE28'
-
-Blue_0 <- '#D3F3FC'
-Blue_1 <- '#04CBFF'
-  
-Red_0 <- '#FFD7D7'
-Red_1 <- '#FF0000'
-
-library(formattable)
-
-model <- formattable(table_models, align = c('c'), 
-            list('Accuracies' = color_tile(Green_0A, Green_1A),
-                 'Sensitivity_CL' = color_tile(Blue_0, Blue_1),
-                 'Specificity_CL' = color_tile(Blue_0, Blue_1),
-                 'Sensitivity_MES' = color_tile(Green_0, Green_1),
-                 'Specificity_MES' = color_tile(Green_0, Green_1),
-                 'Sensitivity_PN' = color_tile(Red_0, Red_1),
-                 'Specificity_PN' = color_tile(Red_0, Red_1),
-                 'Model_name' = formatter('span', style = ~ style(color = 'black', font.weight = 'bold'))))
-            
+sum_acc <- function(){
+  model_list <- list(model_0.66, model_0.75, model_0.8, model_0.85, model_0.9)
+  accuracies <- c()
+  for (i in model_list){
+    accuracies <- c(accuracies, i$Accuracies)
+  }
+  return(accuracies)
+}

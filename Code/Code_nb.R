@@ -25,7 +25,7 @@ prop.table(table(exp_test$Subtype))
 
 tr_control <- trainControl(method = 'repeatedcv', number = 10, repeats = 3, search = 'grid')
 
-nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 0:5) ## Dado que todas las variables aparecen en los diferentes grupos no creo que tenga mucho sentido usar fL. Por otra parte, el código da errores cuando adjust = 0 & usekernel = TRUE.
+nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 1:5) ## Dado que todas las variables aparecen en los diferentes grupos no creo que tenga mucho sentido usar fL. Por otra parte, el código da errores cuando adjust = 0 & usekernel = TRUE.
 
 # Use DoSNOW for working in parallel
 
