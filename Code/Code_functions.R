@@ -129,12 +129,3 @@ Specificity_PN <- c(SS_k[3,2], SS_rf[3,2], SS_nb[3,2], SS_svm[3,2], SS_svmp[3,2]
 table_models <- data.frame(Model_name, Accuracies, IC_lower, IC_upper, Sensitivity_CL, Specificity_CL, Sensitivity_MES, Specificity_MES, Sensitivity_PN, Specificity_PN)
 
 return(table_models)}
-
-sum_acc <- function(){
-  model_list <- list(model_0.66, model_0.75, model_0.8, model_0.85, model_0.9)
-  accuracies <- c()
-  for (i in model_list){
-    accuracies <- c(accuracies, i$Accuracies)
-  }
-  return(accuracies)
-}
