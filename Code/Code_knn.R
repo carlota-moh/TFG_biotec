@@ -28,7 +28,7 @@ prop.table(table(exp_test$Subtype))
 
 tr_control <- trainControl(method = 'repeatedcv', number = 10, repeats = 3, search = 'grid')
 
-k <- c(1:50)
+k <- c(1:40)
 k_parameter <- data.frame(k)
 
 # I do not think it will be necessary, but just in case I include the code for using doSNOW and working in parallel

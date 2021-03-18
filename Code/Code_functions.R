@@ -1,18 +1,4 @@
-source('Code/Common_1.R')
-
-# Install and load the caret library
-
-#install.packages(caret)
-library(caret)
-library(ggplot2)
-
-# Split the data
-
-set.seed(1)
-train_idx <- createDataPartition(exp$Subtype, p = 0.8, list = FALSE)
-
-exp_train <- exp[train_idx, ]
-exp_test <- exp[-train_idx, ]
+model <- function(exp_train, exp_test) {
 
 # Set the training control parameters
 
@@ -26,7 +12,7 @@ k_parameter <- data.frame(k)
 mtry <- c(3,4,5)
 mtry_parameter <- data.frame(mtry)
 
-nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 0:5)
+nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 1:5)
 
 svm_parameter <- data.frame(C = seq(0.01, 2, by = 0.01))
 
@@ -35,7 +21,7 @@ nn_parameter <- expand.grid(size = c(1:3), decay = seq(0.01, 0.1, by = 0.01))
 # Build the models and use them for predicting
 
 set.seed(1)
-knn_1 <- train(Subtype ~ ., data = exp_train, method = 'knn', trControl = tr_control, tuneGrid = k_parameter)
+knn_1 <- train(Subtype ~ ., data = exp_train, method = 'knn', tuneGrid = k_parameter, trControl = tr_control)
 
 knn_t <- predict(knn_1, exp_test)
 
@@ -107,7 +93,7 @@ IC_svmru <- table_svmr$overall[4]
 SS_svmr <- table_svmr$byClass[,c("Sensitivity","Specificity")]
 
 set.seed(1)
-nn_1 <- train(Subtype ~ ., data = exp_train, method = 'nnet', trControl = tr_control, tuneGrid = nn_parameter)
+nn_1 <- train(Subtype ~ ., data = exp_train, method = 'nnet', tuneGrid = nn_parameter, lineout = 0, trControl = tr_control)
 
 nn_t <- predict(nn_1, exp_test)
 
@@ -120,7 +106,7 @@ SS_nn <- table_nn$byClass[,c("Sensitivity","Specificity")]
 
 # Create a table to summarize the results
 
-Model_name <- c('knn', 'Random Forest', 'Naïve Bayes', 'SVMLin', 'SVMPoly', 'SVMRad', 'Neural Net')
+Model_name <- c('knn', 'RandomForest', 'NaiveBayes', 'SVMLin', 'SVMPoly', 'SVMRad', 'NeuralNet')
 
 Accuracies <- c(Acc_k, Acc_rf, Acc_nb, Acc_svm, Acc_svmp, Acc_svmr, Acc_nn)
 
@@ -140,33 +126,6 @@ Sensitivity_PN <- c(SS_k[3,1], SS_rf[3,1], SS_nb[3,1], SS_svm[3,1], SS_svmp[3,1]
 
 Specificity_PN <- c(SS_k[3,2], SS_rf[3,2], SS_nb[3,2], SS_svm[3,2], SS_svmp[3,2], SS_svmr[3,2], SS_nn[3,2])
 
-col_tags <- c('Model Name', 'Accuracies', 'IC (lower)', 'IC(Upper)', 'Sensitivity (CL)', 'Specificity (CL)', 'Sensitivity (MES)', 'Specificity (MES)', 'Sensitivity (PN)', 'Specificity (PN)')
-
 table_models <- data.frame(Model_name, Accuracies, IC_lower, IC_upper, Sensitivity_CL, Specificity_CL, Sensitivity_MES, Specificity_MES, Sensitivity_PN, Specificity_PN)
 
-Green_0A <- '#DBFCD3'
-Green_1A <- '#33FF00'
-
-Green_0 <-  '#E6FCD4'
-Green_1 <- '#88FE28'
-
-Blue_0 <- '#D3F3FC'
-Blue_1 <- '#04CBFF'
-  
-Red_0 <- '#FFD7D7'
-Red_1 <- '#FF0000'
-
-library(formattable)
-
-model <- formattable(table_models, align = c('c'), 
-            list('Accuracies' = color_tile(Green_0A, Green_1A),
-                 'Sensitivity_CL' = color_tile(Blue_0, Blue_1),
-                 'Specificity_CL' = color_tile(Blue_0, Blue_1),
-                 'Sensitivity_MES' = color_tile(Green_0, Green_1),
-                 'Specificity_MES' = color_tile(Green_0, Green_1),
-                 'Sensitivity_PN' = color_tile(Red_0, Red_1),
-                 'Specificity_PN' = color_tile(Red_0, Red_1),
-                 'Model_name' = formatter('span', style = ~ style(color = 'black', font.weight = 'bold'))))
-
-model
-            
+return(table_models)}
