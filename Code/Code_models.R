@@ -1,10 +1,26 @@
+source('Code/Common_1.R')
+
+# Install and load the caret library
+
+#install.packages(caret)
+library(caret)
+library(ggplot2)
+
+# Split the data
+
+set.seed(1)
+train_idx <- createDataPartition(exp$Subtype, p = 0.8, list = FALSE)
+
+exp_train <- exp[train_idx, ]
+exp_test <- exp[-train_idx, ]
+
 # Set the training control parameters
 
 tr_control <- trainControl(method = 'repeatedcv', number = 10, repeats = 3, search = 'grid')
 
 # Load the parameters for the different models
 
-k <- c(1:50)
+k <- c(1:40)
 k_parameter <- data.frame(k)
 
 mtry <- c(3,4,5)
@@ -12,14 +28,14 @@ mtry_parameter <- data.frame(mtry)
 
 nb_parameters <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = 0:5)
 
-svm_parameter <- data.frame(C = seq(0, 2, by = 0.01))
+svm_parameter <- data.frame(C = seq(0.01, 2, by = 0.01))
 
 nn_parameter <- expand.grid(size = c(1:3), decay = seq(0.01, 0.1, by = 0.01))
 
 # Build the models and use them for predicting
 
 set.seed(1)
-knn_1 <- train(Subtype ~ ., data = exp_train, method = 'knn', tuneGrid = k_parameter, trControl = tr_control)
+knn_1 <- train(Subtype ~ ., data = exp_train, method = 'knn', trControl = tr_control, tuneGrid = k_parameter)
 
 knn_t <- predict(knn_1, exp_test)
 
@@ -60,7 +76,6 @@ svm <- train(Subtype ~ ., data = exp_train, method = 'svmLinear', trControl = tr
 svm_t <- predict(svm, exp_test)
 
 table_svm <- confusionMatrix(svm_t, exp_test$Subtype)
-table_svm
 
 Acc_svm <- table_svm$overall[1]
 IC_svml <- table_svm$overall[3]
@@ -73,7 +88,6 @@ svm_p <- train(Subtype ~ ., data = exp_train, method = 'svmPoly', trControl = tr
 svm_pt <- predict(svm_p, exp_test)
 
 table_svmp <- confusionMatrix(svm_pt, exp_test$Subtype)
-table_svmp
 
 Acc_svmp <- table_svmp$overall[1]
 IC_svmpl <- table_svmp$overall[3]
@@ -86,7 +100,6 @@ svm_r <- train(Subtype ~ ., data = exp_train, method = 'svmRadial', trControl = 
 svm_rt <- predict(svm_r, exp_test)
 
 table_svmr <- confusionMatrix(svm_rt, exp_test$Subtype)
-table_svmr
 
 Acc_svmr <- table_svmr$overall[1]
 IC_svmrl <- table_svmr$overall[3]
@@ -94,7 +107,7 @@ IC_svmru <- table_svmr$overall[4]
 SS_svmr <- table_svmr$byClass[,c("Sensitivity","Specificity")]
 
 set.seed(1)
-nn_1 <- train(Subtype ~ ., data = exp_train, method = 'nnet', tuneGrid = nn_parameter, lineout = 0, trControl = tr_control)
+nn_1 <- train(Subtype ~ ., data = exp_train, method = 'nnet', trControl = tr_control, tuneGrid = nn_parameter)
 
 nn_t <- predict(nn_1, exp_test)
 
@@ -154,4 +167,6 @@ model <- formattable(table_models, align = c('c'),
                  'Sensitivity_PN' = color_tile(Red_0, Red_1),
                  'Specificity_PN' = color_tile(Red_0, Red_1),
                  'Model_name' = formatter('span', style = ~ style(color = 'black', font.weight = 'bold'))))
+
+model
             
